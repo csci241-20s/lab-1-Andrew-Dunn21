@@ -1,0 +1,1768 @@
+Script started on 2020-04-09 10:25:40-0700
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ [K]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ git clone https:c/[K[K//github.com/csci1[K241-2-[K0s/Andrew-Dunn21lAndrew-Dunn21aAndrew-Dunn21bAndrew-Dunn21-Andrew-Dunn21`Andrew-Dunn21[1PAndrew-Dunn211Andrew-Dunn21-Andrew-Dunn21
+Cloning into 'lab-1-Andrew-Dunn21'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ git config -- g[K[Kglobal user.email dunna21@wwu.edu
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ touch writeup.txtg[K
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ git add touch[K[K[K[K[Kwriteup.txt
+fatal: not a git repository (or any of the parent directories): .git
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ cd csci1[K241/lab-1-Andrew-Dunn21
+bash: cd: csci241/lab-1-Andrew-Dunn21: No such file or directory
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ ls
+[0m[01;34mlab-1-Andrew-Dunn21[0m  typescript  writeup.txt
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ cd lab-1-Andrewp[K-Dunn21
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ cde[K src[K[K[K[K[K[Kgit config -- g[K[Kglobal user.name "Andrew Dun n"
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ touch wt[Kriteup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add wriet[K[Kteup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit -m "Added emptr[Ky writeup"
+[master 3b55062] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git push
+Username for 'https://github.com': Andrew-Dunn21
+Password for 'https://Andrew-Dunn21@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 268 bytes | 268.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Andrew-Dunn21
+   93fd654..3b55062  master -> master
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add writeup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit -m "Added part 1 (N[Knames) to wr iteup"
+[master 73fda63] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add [K[K[K[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add t[Kwrie[K[Kteu[K[K[Kiteup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit -m "Added my hobby to the writ eup"[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K writeup. txt"
+[master 2a19ff5] Added my hobby to writeup.txt
+ 1 file changed, 1 insertion(+)
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git pp[Kush
+Username for 'https://github.com': Andrew-Dunn21
+Password for 'https://Andrew-Dunn21@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 575 bytes | 575.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Andrew-Dunn21
+   3b55062..2a19ff5  master -> master
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git sts[Katus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ toush[K[Kch username.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add username.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit username[K[K[K[K[K[K[K[K-m "r[KCreated and edited usernam e.txt"
+[master 70d7e26] Created and edited username.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git push
+Username for 'https://github.com': Andrew-Dunn21
+Password for 'https://Andrew-Dunn21@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Andrew-Dunn21
+   2a19ff5..70d7e26  master -> master
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git checkout
+Your branch is up to date with 'origin/master'.
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git reset
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ touch dummy.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add dummy.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit =m[K[K-m "Made a dummy file, called  dummy.txt"
+[master 152ffee] Made a dummy file, called dummy.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git push
+Username for 'https://github.com': Andrew-Dunn21
+Password for 'https://Andrew-Dunn21@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 275 bytes | 275.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Andrew-Dunn21
+   70d7e26..152ffee  master -> master
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git rm dummy.txt
+rm 'dummy.txt'
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git mv dummy.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git blame writeup.txt
+[?1h=73fda63b (Andrew Dunn 2020-04-09 10:38:52 -0700 1) 1) Andrew Dunn[m
+2a19ff55 (Andrew Dunn 2020-04-09 10:45:45 -0700 2) 2) Hobby: I'm a daily addict of the NYT cro[m ssword[m
+[K[?1l>]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git log
+[?1h=[33mcommit 152ffeecd87762cdcbf86daf9654234362a2b743[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[46;1H[K[K:[K[K:[K[K:[K[K[m
+:[K[K    Initial commit[m
+:[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[HDate:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+Date:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+Date:   Thu Apr 9 10:49:59 2020 -0700[m
+[m
+    Made a dummy file, called dummy.txt[m
+[m
+[33mcommit 70d7e262743eeea4d43897d2decbaa88b850f212[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:48:30 2020 -0700[m
+[m
+    Created and edited username.txt[m
+[m
+[33mcommit 2a19ff558c352e9268711d0a70ec05086744fdd6[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:45:45 2020 -0700[m
+[m
+    Added my hobby to writeup.txt[m
+[m
+[33mcommit 73fda63b1b18edacc4cf056f5919b431bbdf33aa[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:38:52 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3b5506237fa8e26f244d4aef35e4fa5b5e8b5d17[m[m
+Author: Andrew Dunn <dunna21@wwu.edu>[m
+Date:   Thu Apr 9 10:33:51 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 93fd6548af91db43057b60ce196754bd59ce1512[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:35 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a3e82534005adf671635e7b808b3f486ad90eedc[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit f67deab15b2eb355f7495370e33c09c253dea50f[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 10:26:33 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K-[Klog file: [Kdd[Kff[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K:[K11[K[K[7m(END)[27m[K[K[?1l>]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ uit[K[K[Kgit diff
+[?1h=[K[?1l>]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git diff wi[Kriete[K[K[Kteup.txt
+[?1h=[K[?1l>]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git checkout -b question3
+D	dummy.txt
+Switched to a new branch 'question3'
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ a[Kgit add wire[K[K[Kriteup.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit -m "Added Q# [K[K3 to wrie[Kteup.tt[Kxxt[K[Kt"
+[question3 faab0d1] Added Q3 to writeup.txt
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 dummy.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git a[Kpush[K[K[K[K[K status
+On branch question3
+nothing to commit, working tree clean
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git merge[K[K[K[K[Kcheckout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git merge question3
+Updating 152ffee..faab0d1
+Fast-forward
+ dummy.txt   | 0
+ writeup.txt | 1 [32m+[m
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 dummy.txt
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ g;it[K[K[Kit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git del[K[K[Kbranch -d question3
+Deleted branch question3 (was faab0d1).
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle build
+
+Command 'gradle' not found, but can be installed with:
+
+sudo apt install gradle
+
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ sudo aptinsta[K[K[K[K[K ihstal[K[K[K[K[Knstall gradle
+[sudo] password for andrew: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-geocodeglib-1.0 libfwup1 libllvm8 ubuntu-web-launchers
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ant ant-optional antlr bnd groovy ivy java-wrappers javascript-common junit4 libantlr-java
+  libaopalliance-java libapache-pom-java libasm-java libatinject-jsr330-api-java
+  libbcel-java libbcpg-java libbcprov-java libbindex-java libbsf-java libbsh-java
+  libcdi-api-java libcommons-cli-java libcommons-codec-java libcommons-collections3-java
+  libcommons-compress-java libcommons-io-java libcommons-lang-java libcommons-lang3-java
+  libcommons-logging-java libcommons-parent-java libdd-plist-java libdom4j-java
+  libel-api-java libfelix-framework-java libfelix-gogo-runtime-java libfelix-osgi-obr-java
+  libfelix-resolver-java libfindbugs-java libgeronimo-annotation-1.3-spec-java
+  libgeronimo-interceptor-3.0-spec-java libgoogle-gson-java libgpars-groovy-java
+  libgradle-core-java libgradle-plugins-java libguava-java libguice-java libhamcrest-java
+  libhawtjni-runtime-java libhttpclient-java libhttpcore-java libjansi-java
+  libjansi-native-java libjarjar-java libjatl-java libjavaewah-java libjaxen-java
+  libjaxp1.3-java libjcifs-java libjcip-annotations-java libjcommander-java libjcsp-java
+  libjformatstring-java libjgit-java libjline2-java libjna-java libjna-jni libjs-jquery
+  libjsch-java libjsoup-java libjsp-api-java libjsr166y-java libjsr305-java libjzlib-java
+  libkryo-java libkxml2-java liblogback-java libmaven-parent-java libmaven-resolver-java
+  libmaven-shared-utils-java libmaven3-core-java libminlog-java libmultiverse-core-java
+  libnative-platform-java libnative-platform-jni libnekohtml-java libobjenesis-java
+  libosgi-annotation-java libosgi-compendium-java libosgi-core-java libplexus-cipher-java
+  libplexus-classworlds-java libplexus-component-annotations-java
+  libplexus-container-default-java libplexus-container-default1.5-java
+  libplexus-interpolation-java libplexus-sec-dispatcher-java libplexus-utils-java
+  libplexus-utils2-java libpolyglot-maven-java libqdox-java libreflectasm-java librhino-java
+  libservlet-api-java libservlet3.1-java libsimple-http-java libsisu-inject-java
+  libsisu-plexus-java libslf4j-java libwagon-file-java libwagon-http-java
+  libwagon-provider-api-java libwebsocket-api-java libxalan2-java libxbean-reflect-java
+  libxerces2-java libxml-commons-external-java libxml-commons-resolver1.1-java libxpp3-java
+  libxstream-java libxz-java libyaml-snake-java testng
+Suggested packages:
+  ant-doc javacc junit jython libactivation-java libcommons-net-java libmail-java
+  libjdepend-java liblog4j1.2-java liboro-java libregexp-java gradle-doc groovy-doc
+  libjsch-agent-proxy-java ivy-doc default-jre | java2-runtime apache2 | lighttpd | httpd
+  libaopalliance-java-doc libatinject-jsr330-api-java-doc libbcel-java-doc libbcpg-java-doc
+  libbcprov-java-doc bsh rhino libcommons-collections3-java-doc libcommons-io-java-doc
+  libcommons-lang-java-doc libcommons-lang3-java-doc libavalon-framework-java
+  libcommons-logging-java-doc libexcalibur-logkit-java libdom4j-java-doc libmsv-java
+  libxpp2-java libfelix-framework-java-doc libfelix-gogo-runtime-java-doc
+  libfelix-osgi-obr-java-doc libgoogle-gson-java-doc libgpars-groovy-java-doc libcglib-java
+  libjavaewah-java-doc libjdom1-java libxom-java libjcifs-java-doc libjcommander-java-doc
+  libjcsp-java-doc libjgit-java-doc libjna-java-doc libjsoup-java-doc libjsr305-java-doc
+  libjanino-java libjetty9-java libtomcat8-java libmaven-shared-utils-java-doc
+  libnative-platform-java-doc libnekohtml-java-doc libobjenesis-java-doc
+  libosgi-annotation-java-doc libosgi-compendium-java-doc libosgi-core-java-doc
+  libplexus-cipher-java-doc libplexus-classworlds-java-doc libplexus-interpolation-java-doc
+  libplexus-sec-dispatcher-java-doc libplexus-utils-java-doc libplexus-utils2-java-doc
+  libpolyglot-maven-java-doc libqdox-java-doc libsimple-http-java-doc libxalan2-java-doc
+  libxsltc-java libxerces2-java-doc libxml-commons-resolver1.1-java-doc libcglib-nodep-java
+  libjdom2-java libjettison-java libjoda-time-java libwoodstox-java
+The following NEW packages will be installed:
+  ant ant-optional antlr bnd gradle groovy ivy java-wrappers javascript-common junit4
+  libantlr-java libaopalliance-java libapache-pom-java libasm-java
+  libatinject-jsr330-api-java libbcel-java libbcpg-java libbcprov-java libbindex-java
+  libbsf-java libbsh-java libcdi-api-java libcommons-cli-java libcommons-codec-java
+  libcommons-collections3-java libcommons-compress-java libcommons-io-java
+  libcommons-lang-java libcommons-lang3-java libcommons-logging-java libcommons-parent-java
+  libdd-plist-java libdom4j-java libel-api-java libfelix-framework-java
+  libfelix-gogo-runtime-java libfelix-osgi-obr-java libfelix-resolver-java libfindbugs-java
+  libgeronimo-annotation-1.3-spec-java libgeronimo-interceptor-3.0-spec-java
+  libgoogle-gson-java libgpars-groovy-java libgradle-core-java libgradle-plugins-java
+  libguava-java libguice-java libhamcrest-java libhawtjni-runtime-java libhttpclient-java
+  libhttpcore-java libjansi-java libjansi-native-java libjarjar-java libjatl-java
+  libjavaewah-java libjaxen-java libjaxp1.3-java libjcifs-java libjcip-annotations-java
+  libjcommander-java libjcsp-java libjformatstring-java libjgit-java libjline2-java
+  libjna-java libjna-jni libjs-jquery libjsch-java libjsoup-java libjsp-api-java
+  libjsr166y-java libjsr305-java libjzlib-java libkryo-java libkxml2-java liblogback-java
+  libmaven-parent-java libmaven-resolver-java libmaven-shared-utils-java libmaven3-core-java
+  libminlog-java libmultiverse-core-java libnative-platform-java libnative-platform-jni
+  libnekohtml-java libobjenesis-java libosgi-annotation-java libosgi-compendium-java
+  libosgi-core-java libplexus-cipher-java libplexus-classworlds-java
+  libplexus-component-annotations-java libplexus-container-default-java
+  libplexus-container-default1.5-java libplexus-interpolation-java
+  libplexus-sec-dispatcher-java libplexus-utils-java libplexus-utils2-java
+  libpolyglot-maven-java libqdox-java libreflectasm-java librhino-java libservlet-api-java
+  libservlet3.1-java libsimple-http-java libsisu-inject-java libsisu-plexus-java
+  libslf4j-java libwagon-file-java libwagon-http-java libwagon-provider-api-java
+  libwebsocket-api-java libxalan2-java libxbean-reflect-java libxerces2-java
+  libxml-commons-external-java libxml-commons-resolver1.1-java libxpp3-java libxstream-java
+  libxz-java libyaml-snake-java testng
+0 upgraded, 123 newly installed, 0 to remove and 27 not upgraded.
+Need to get 72.7 MB of archives.
+After this operation, 115 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 ant all 1.10.5-3~18.04 [2,075 kB]
+[33m0% [1 ant 2,571 B/2,075 kB 0%][0m[33m0% [1 ant 395 kB/2,075 kB 19%][0m[33m1% [1 ant 665 kB/2,075 kB 32%][0m[33m                              2% [Working][0m            Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 ant-optional all 1.10.5-3~18.04 [378 kB]
+[33m2% [2 ant-optional 4,001 B/378 kB 1%][0m[33m                                     3% [Waiting for headers][0m                        Get:3 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libantlr-java all 2.7.7+dfsg-9.2 [452 kB]
+[33m3% [3 libantlr-java 15.4 kB/452 kB 3%][0m[33m                                      4% [Waiting for headers][0m                        Get:4 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 antlr all 2.7.7+dfsg-9.2 [5,088 B]
+[33m4% [4 antlr 5,088 B/5,088 B 100%][0m[33m                                 4% [Working][0m            Get:5 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 java-wrappers all 0.3 [9,560 B]
+[33m4% [5 java-wrappers 9,560 B/9,560 B 100%][0m[33m                                         4% [Working][0m            Get:6 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libhamcrest-java all 1.3-7 [388 kB]
+[33m4% [6 libhamcrest-java 28.2 kB/388 kB 7%][0m[33m                                         5% [Working][0m            Get:7 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 junit4 all 4.12-8~18.04 [293 kB]
+[33m5% [7 junit4 11.6 kB/293 kB 4%][0m[33m                               5% [Working][0m            Get:8 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libfelix-framework-java all 4.6.1-2 [526 kB]
+[33m5% [8 libfelix-framework-java 65.5 kB/526 kB 12%][0m[33m                                                 6% [Waiting for headers][0m                        Get:9 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libfelix-gogo-runtime-java all 0.16.2-1 [110 kB]
+[33m6% [9 libfelix-gogo-runtime-java 19.3 kB/110 kB 18%][0m[33m                                                    6% [Waiting for headers][0m                        Get:10 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libosgi-annotation-java all 6.0.0-2 [3,734 B]
+[33m6% [10 libosgi-annotation-java 2,141 B/3,734 B 57%][0m[33m                                                   6% [Waiting for headers][0m                        Get:11 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libosgi-core-java all 6.0.0-1 [147 kB]
+[33m6% [11 libosgi-core-java 6,692 B/147 kB 5%][0m[33m                                           7% [Waiting for headers][0m                        Get:12 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libfelix-resolver-java all 1.14.0-1 [175 kB]
+[33m7% [12 libfelix-resolver-java 65.5 kB/175 kB 37%][0m[33m                                                 7% [Waiting for headers][0m                        Get:13 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libosgi-compendium-java all 6.0.0-1 [244 kB]
+[33m7% [13 libosgi-compendium-java 7,882 B/244 kB 3%][0m[33m                                                 7% [Working][0m            Get:14 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libslf4j-java all 1.7.25-3 [141 kB]
+[33m7% [14 libslf4j-java 40.5 kB/141 kB 29%][0m[33m                                        8% [Waiting for headers][0m                        Get:15 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxz-java all 1.8-1 [134 kB]
+[33m8% [15 libxz-java 3,356 B/134 kB 2%][0m[33m                                    8% [Waiting for headers][0m                        Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libyaml-snake-java all 1.23-1~18.04 [270 kB]
+[33m8% [16 libyaml-snake-java 7,269 B/270 kB 3%][0m[33m                                            8% [Working][0m            Get:17 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 bnd all 3.5.0-4~18.04 [7,594 kB]
+[33m8% [17 bnd 736 B/7,594 kB 0%][0m[33m10% [17 bnd 1,197 kB/7,594 kB 16%][0m[33m11% [17 bnd 1,971 kB/7,594 kB 26%][0m[33m12% [17 bnd 3,318 kB/7,594 kB 44%][0m[33m13% [17 bnd 4,352 kB/7,594 kB 57%][0m[33m15% [17 bnd 5,503 kB/7,594 kB 72%][0m[33m16% [17 bnd 6,875 kB/7,594 kB 91%]                                             1,955 kB/s 30s[0m[33m17% [Waiting for headers]                                                      1,955 kB/s 30s[0m                                                                                             Get:18 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 ivy all 2.4.0-3 [1,164 kB]
+[33m17% [18 ivy 7,215 B/1,164 kB 1%]                                               1,955 kB/s 30s[0m[33m18% [Working]                                                                  1,955 kB/s 29s[0m                                                                                             Get:19 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libasm-java all 7.0-1~18.04 [362 kB]
+[33m18% [19 libasm-java 4,074 B/362 kB 1%]                                         1,955 kB/s 29s[0m[33m19% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:20 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libapache-pom-java all 18-1 [4,720 B]
+[33m19% [20 libapache-pom-java 4,720 B/4,720 B 100%]                               1,955 kB/s 29s[0m[33m19% [Working]                                                                  1,955 kB/s 29s[0m                                                                                             Get:21 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libbsf-java all 1:2.4.0-5build1 [71.2 kB]
+[33m19% [21 libbsf-java 8,192 B/71.2 kB 12%]                                       1,955 kB/s 29s[0m[33m19% [Working]                                                                  1,955 kB/s 29s[0m                                                                                             Get:22 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-cli-java all 1.4-1 [53.8 kB]
+[33m19% [22 libcommons-cli-java 11.8 kB/53.8 kB 22%]                               1,955 kB/s 29s[0m[33m20% [Working]                                                                  1,955 kB/s 29s[0m                                                                                             Get:23 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-parent-java all 43-1 [10.8 kB]
+[33m20% [23 libcommons-parent-java 10.6 kB/10.8 kB 98%]                            1,955 kB/s 29s[0m[33m20% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:24 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-logging-java all 1.2-2 [60.3 kB]
+[33m20% [24 libcommons-logging-java 19.5 kB/60.3 kB 32%]                           1,955 kB/s 29s[0m[33m20% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:25 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libhawtjni-runtime-java all 1.15-2 [27.1 kB]
+[33m20% [25 libhawtjni-runtime-java 26.0 kB/27.1 kB 96%]                           1,955 kB/s 29s[0m[33m20% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:26 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjansi-native-java all 1.7-1 [19.4 kB]
+[33m20% [26 libjansi-native-java 7,237 B/19.4 kB 37%]                              1,955 kB/s 29s[0m[33m20% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:27 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjansi-java all 1.16-1 [36.2 kB]
+[33m20% [27 libjansi-java 4,720 B/36.2 kB 13%]                                     1,955 kB/s 29s[0m[33m21% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:28 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjline2-java all 2.14.6-1 [150 kB]
+[33m21% [28 libjline2-java 1,045 B/150 kB 1%]                                      1,955 kB/s 29s[0m[33m21% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:29 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libqdox-java all 1.12.1-3 [172 kB]
+[33m21% [29 libqdox-java 28.3 kB/172 kB 17%]                                       1,955 kB/s 29s[0m[33m21% [Working]                                                                  1,955 kB/s 29s[0m                                                                                             Get:30 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libservlet-api-java all 4.0.1-2~18.04 [81.3 kB]
+[33m21% [30 libservlet-api-java 2,574 B/81.3 kB 3%]                                1,955 kB/s 29s[0m[33m22% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:31 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libjsp-api-java all 2.3.4-2~18.04 [53.7 kB]
+[33m22% [31 libjsp-api-java 8,137 B/53.7 kB 15%]                                   1,955 kB/s 29s[0m[33m22% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:32 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libel-api-java all 3.0.0-2~18.04 [64.9 kB]
+[33m22% [32 libel-api-java 1,244 B/64.9 kB 2%]                                     1,955 kB/s 29s[0m[33m22% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:33 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libwebsocket-api-java all 1.1-1~18.04 [39.6 kB]
+[33m22% [33 libwebsocket-api-java 10.3 kB/39.6 kB 26%]                             1,955 kB/s 29s[0m[33m22% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:34 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libservlet3.1-java all 1:4.0.1-2~18.04 [9,612 B]
+[33m22% [34 libservlet3.1-java 1,835 B/9,612 B 19%]                                1,955 kB/s 29s[0m[33m22% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:35 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxpp3-java all 1.1.4c-3 [292 kB]
+[33m22% [35 libxpp3-java 508 B/292 kB 0%]                                          1,955 kB/s 29s[0m[33m23% [Waiting for headers]                                                      1,955 kB/s 29s[0m                                                                                             Get:36 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libxstream-java all 1.4.11.1-1~18.04 [540 kB]
+[33m23% [36 libxstream-java 25.3 kB/540 kB 5%]                                     1,955 kB/s 29s[0m[33m24% [Working]                                                                  1,955 kB/s 28s[0m                                                                                             Get:37 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 groovy all 2.4.16-1ubuntu1~18.04.1 [12.9 MB]
+[33m24% [37 groovy 439 B/12.9 MB 0%]                                               1,955 kB/s 28s[0m[33m25% [37 groovy 1,087 kB/12.9 MB 8%]                                            1,955 kB/s 28s[0m[33m26% [37 groovy 2,277 kB/12.9 MB 18%]                                           1,955 kB/s 27s[0m[33m28% [37 groovy 3,685 kB/12.9 MB 28%]                                           1,955 kB/s 27s[0m[33m29% [37 groovy 4,713 kB/12.9 MB 36%]                                           1,955 kB/s 26s[0m[33m30% [37 groovy 6,024 kB/12.9 MB 47%]                                           1,955 kB/s 25s[0m[33m31% [37 groovy 6,261 kB/12.9 MB 48%]                                           1,955 kB/s 25s[0m[33m31% [37 groovy 7,006 kB/12.9 MB 54%]                                           1,955 kB/s 25s[0m[33m32% [37 groovy 7,949 kB/12.9 MB 61%]                                           1,955 kB/s 24s[0m[33m34% [37 groovy 9,341 kB/12.9 MB 72%]                                           2,090 kB/s 22s[0m[33m35% [37 groovy 9,895 kB/12.9 MB 76%]                                           2,090 kB/s 22s[0m[33m36% [37 groovy 10.9 MB/12.9 MB 84%]                                            2,090 kB/s 21s[0m[33m37% [37 groovy 11.9 MB/12.9 MB 92%]                                            2,090 kB/s 21s[0m[33m38% [37 groovy 12.9 MB/12.9 MB 100%]                                           2,090 kB/s 20s[0m[33m38% [Waiting for headers]                                                      2,090 kB/s 20s[0m                                                                                             Get:38 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libatinject-jsr330-api-java all 1.0+ds1-5 [5,348 B]
+[33m38% [38 libatinject-jsr330-api-java 5,348 B/5,348 B 100%]                      2,090 kB/s 20s[0m[33m38% [Working]                                                                  2,090 kB/s 20s[0m                                                                                             Get:39 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libcommons-collections3-java all 3.2.2-2~18.04 [526 kB]
+[33m38% [39 libcommons-collections3-java 19.1 kB/526 kB 4%]                        2,090 kB/s 20s[0m[33m39% [Waiting for headers]                                                      2,090 kB/s 20s[0m                                                                                             Get:40 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libcommons-compress-java all 1.18-1~18.04 [531 kB]
+[33m39% [40 libcommons-compress-java 2,845 B/531 kB 1%]                            2,090 kB/s 20s[0m[33m40% [Waiting for headers]                                                      2,090 kB/s 20s[0m                                                                                             Get:41 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-io-java all 2.6-2 [198 kB]
+[33m40% [41 libcommons-io-java 6,794 B/198 kB 3%]                                  2,090 kB/s 20s[0m[33m40% [Waiting for headers]                                                      2,090 kB/s 20s[0m                                                                                             Get:42 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-lang-java all 2.6-8 [272 kB]
+[33m40% [42 libcommons-lang-java 9,643 B/272 kB 4%]                                2,090 kB/s 20s[0m[33m41% [Working]                                                                  2,090 kB/s 20s[0m                                                                                             Get:43 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjsr305-java all 0.1~+svn49-10 [26.5 kB]
+[33m41% [43 libjsr305-java 4,674 B/26.5 kB 18%]                                    2,090 kB/s 20s[0m[33m41% [Waiting for headers]                                                      2,090 kB/s 20s[0m                                                                                             Get:44 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libguava-java all 19.0-1 [2,028 kB]
+[33m41% [44 libguava-java 713 B/2,028 kB 0%]                                       2,090 kB/s 20s[0m[33m42% [44 libguava-java 1,022 kB/2,028 kB 50%]                                   2,090 kB/s 19s[0m[33m43% [Waiting for headers]                                                      2,090 kB/s 19s[0m                                                                                             Get:45 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcommons-codec-java all 1.11-1 [271 kB]
+[33m43% [45 libcommons-codec-java 6,276 B/271 kB 2%]                               2,090 kB/s 19s[0m[33m44% [Working]                                                                  2,090 kB/s 19s[0m                                                                                             Get:46 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libhttpcore-java all 4.4.9-1 [605 kB]
+[33m44% [46 libhttpcore-java 5,225 B/605 kB 1%]                                    2,090 kB/s 19s[0m[33m44% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:47 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libhttpclient-java all 4.5.5-1 [720 kB]
+[33m44% [47 libhttpclient-java 5,098 B/720 kB 1%]                                  2,090 kB/s 18s[0m[33m45% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:48 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjarjar-java all 1.4+svn142-8 [120 kB]
+[33m45% [48 libjarjar-java 4,267 B/120 kB 4%]                                      2,090 kB/s 18s[0m[33m46% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:49 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjcip-annotations-java all 20060626-5 [11.6 kB]
+[33m46% [49 libjcip-annotations-java 2,684 B/11.6 kB 23%]                          2,090 kB/s 18s[0m[33m46% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:50 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjna-jni amd64 4.5.1-1 [30.6 kB]
+[33m46% [50 libjna-jni 9,381 B/30.6 kB 31%]                                        2,090 kB/s 18s[0m[33m46% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:51 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjna-java all 4.5.1-1 [161 kB]
+[33m46% [51 libjna-java 2,726 B/161 kB 2%]                                         2,090 kB/s 18s[0m[33m46% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:52 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjzlib-java all 1.1.3-2 [77.5 kB]
+[33m46% [52 libjzlib-java 4,708 B/77.5 kB 6%]                                      2,090 kB/s 18s[0m[33m47% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:53 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjsch-java all 0.1.54-1 [269 kB]
+[33m47% [53 libjsch-java 1,181 B/269 kB 0%]                                        2,090 kB/s 18s[0m[33m47% [Working]                                                                  2,090 kB/s 18s[0m                                                                                             Get:54 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libminlog-java all 1.3.0-1 [7,650 B]
+[33m47% [54 libminlog-java 7,650 B/7,650 B 100%]                                   2,090 kB/s 18s[0m[33m47% [Working]                                                                  2,090 kB/s 18s[0m                                                                                             Get:55 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libobjenesis-java all 3.0.1-2~18.04 [52.5 kB]
+[33m47% [55 libobjenesis-java 22.4 kB/52.5 kB 43%]                                 2,090 kB/s 18s[0m[33m47% [Working]                                                                  2,090 kB/s 18s[0m                                                                                             Get:56 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libreflectasm-java all 1.05-4 [17.7 kB]
+[33m48% [56 libreflectasm-java 15.2 kB/17.7 kB 86%]                                2,090 kB/s 18s[0m[33m48% [Waiting for headers]                                                      2,090 kB/s 18s[0m                                                                                             Get:57 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libkryo-java all 2.20-6 [151 kB]
+[33m48% [57 libkryo-java 13.0 kB/151 kB 9%]                                        2,090 kB/s 18s[0m[33m48% [Waiting for headers]                                                      2,090 kB/s 17s[0m                                                                                             Get:58 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 liblogback-java all 1:1.2.3-2ubuntu1~18.04.1 [764 kB]
+[33m48% [58 liblogback-java 62.3 kB/764 kB 8%]                                     2,090 kB/s 17s[0m[33m49% [Waiting for headers]                                                      2,090 kB/s 17s[0m                                                                                             Get:59 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libnative-platform-jni amd64 0.14-3 [12.1 kB]
+[33m49% [59 libnative-platform-jni 12.1 kB/12.1 kB 100%]                           2,090 kB/s 17s[0m[33m49% [Working]                                                                  2,090 kB/s 17s[0m                                                                                             Get:60 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libnative-platform-java all 0.14-3 [68.7 kB]
+[33m49% [60 libnative-platform-java 6,573 B/68.7 kB 10%]                           2,090 kB/s 17s[0m[33m49% [Waiting for headers]                                                      2,090 kB/s 17s[0m                                                                                             Get:61 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxml-commons-external-java all 1.4.01-3 [240 kB]
+[33m49% [61 libxml-commons-external-java 65.5 kB/240 kB 27%]                       2,090 kB/s 17s[0m[33m50% [Working]                                                                  2,090 kB/s 17s[0m                                                                                             Get:62 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxml-commons-resolver1.1-java all 1.2-9 [91.1 kB]
+[33m50% [62 libxml-commons-resolver1.1-java 25.4 kB/91.1 kB 28%]                   2,090 kB/s 17s[0m[33m50% [Waiting for headers]                                                      2,090 kB/s 17s[0m                                                                                             Get:63 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxerces2-java all 2.11.0-8 [1,344 kB]
+[33m50% [63 libxerces2-java 65.1 kB/1,344 kB 5%]                                   2,090 kB/s 17s[0m[33m51% [63 libxerces2-java 524 kB/1,344 kB 39%]                                   1,827 kB/s 19s[0m[33m52% [Waiting for headers]                                                      1,827 kB/s 19s[0m                                                                                             Get:64 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libnekohtml-java all 1.9.22-1 [120 kB]
+[33m52% [64 libnekohtml-java 31.8 kB/120 kB 26%]                                   1,827 kB/s 19s[0m[33m52% [Waiting for headers]                                                      1,827 kB/s 19s[0m                                                                                             Get:65 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxbean-reflect-java all 4.5-6 [132 kB]
+[33m52% [65 libxbean-reflect-java 34.5 kB/132 kB 26%]                              1,827 kB/s 19s[0m[33m52% [Waiting for headers]                                                      1,827 kB/s 19s[0m                                                                                             Get:66 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libgradle-core-java all 4.4.1-5ubuntu2~18.04 [4,243 kB]
+[33m52% [66 libgradle-core-java 36.3 kB/4,243 kB 1%]                               1,827 kB/s 18s[0m[33m53% [66 libgradle-core-java 419 kB/4,243 kB 10%]                               1,827 kB/s 18s[0m[33m54% [66 libgradle-core-java 1,654 kB/4,243 kB 39%]                             1,827 kB/s 18s[0m[33m55% [66 libgradle-core-java 2,779 kB/4,243 kB 66%]                             1,827 kB/s 17s[0m[33m56% [66 libgradle-core-java 3,346 kB/4,243 kB 79%]                             1,827 kB/s 17s[0m[33m57% [Waiting for headers]                                                      1,827 kB/s 16s[0m                                                                                             Get:67 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libbcprov-java all 1.59-1 [3,012 kB]
+[33m57% [67 libbcprov-java 18.6 kB/3,012 kB 1%]                                    1,827 kB/s 16s[0m[33m58% [67 libbcprov-java 1,132 kB/3,012 kB 38%]                                  1,827 kB/s 16s[0m[33m59% [67 libbcprov-java 1,995 kB/3,012 kB 66%]                                  1,827 kB/s 15s[0m[33m61% [Waiting for headers]                                                      1,827 kB/s 15s[0m                                                                                             Get:68 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libbcpg-java all 1.59-1 [227 kB]
+[33m61% [68 libbcpg-java 3,543 B/227 kB 2%]                                        1,827 kB/s 15s[0m[33m61% [Working]                                                                  1,827 kB/s 14s[0m                                                                                             Get:69 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libbsh-java all 2.0b4-19 [280 kB]
+[33m61% [69 libbsh-java 1,944 B/280 kB 1%]                                         1,827 kB/s 14s[0m[33m62% [Working]                                                                  1,827 kB/s 14s[0m                                                                                             Get:70 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libdd-plist-java all 1.20-1~18.04.1 [72.6 kB]
+[33m62% [70 libdd-plist-java 7,430 B/72.6 kB 10%]                                  1,827 kB/s 14s[0m[33m62% [Waiting for headers]                                                      1,827 kB/s 14s[0m                                                                                             Get:71 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjaxen-java all 1.1.6-3 [214 kB]
+[33m62% [71 libjaxen-java 11.6 kB/214 kB 5%]                                       1,827 kB/s 14s[0m[33m62% [Working]                                                                  1,827 kB/s 14s[0m                                                                                             Get:72 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libdom4j-java all 2.1.0-2 [309 kB]
+[33m62% [72 libdom4j-java 51.2 kB/309 kB 17%]                                      1,827 kB/s 14s[0m[33m63% [Working]                                                                  1,827 kB/s 14s[0m                                                                                             Get:73 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libbcel-java all 6.2-1 [604 kB]
+[33m63% [73 libbcel-java 2,221 B/604 kB 0%]                                        1,827 kB/s 14s[0m[33m64% [Waiting for headers]                                                      1,827 kB/s 14s[0m                                                                                             Get:74 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjformatstring-java all 0.10~20131207-2 [33.8 kB]
+[33m64% [74 libjformatstring-java 10.6 kB/33.8 kB 31%]                             1,827 kB/s 14s[0m[33m64% [Waiting for headers]                                                      1,827 kB/s 14s[0m                                                                                             Get:75 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libfindbugs-java all 3.1.0~preview2-3 [3,502 kB]
+[33m64% [75 libfindbugs-java 3,567 B/3,502 kB 0%]                                  1,827 kB/s 14s[0m[33m65% [75 libfindbugs-java 912 kB/3,502 kB 26%]                                  1,827 kB/s 13s[0m[33m66% [75 libfindbugs-java 2,267 kB/3,502 kB 65%]                                1,997 kB/s 11s[0m[33m67% [75 libfindbugs-java 3,338 kB/3,502 kB 95%]                                1,997 kB/s 11s[0m[33m68% [Waiting for headers]                                                      1,997 kB/s 11s[0m                                                                                             Get:76 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libgoogle-gson-java all 2.8.5-3~18.04 [219 kB]
+[33m68% [76 libgoogle-gson-java 15.1 kB/219 kB 7%]                                 1,997 kB/s 11s[0m[33m68% [Waiting for headers]                                                      1,997 kB/s 11s[0m                                                                                             Get:77 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libaopalliance-java all 20070526-6 [9,084 B]
+[33m68% [77 libaopalliance-java 9,084 B/9,084 B 100%]                              1,997 kB/s 11s[0m[33m68% [Working]                                                                  1,997 kB/s 11s[0m                                                                                             Get:78 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libguice-java all 4.0-4 [853 kB]
+[33m68% [78 libguice-java 25.7 kB/853 kB 3%]                                       1,997 kB/s 10s[0m[33m69% [Waiting for headers]                                                      1,997 kB/s 10s[0m                                                                                             Get:79 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjatl-java all 0.2.3-1 [28.2 kB]
+[33m69% [79 libjatl-java 24.1 kB/28.2 kB 86%]                                      1,997 kB/s 10s[0m[33m70% [Working]                                                                  1,997 kB/s 10s[0m                                                                                             Get:80 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjcifs-java all 1.3.19-2 [376 kB]
+[33m70% [80 libjcifs-java 61.2 kB/376 kB 16%]                                      1,997 kB/s 10s[0m[33m70% [Waiting for headers]                                                      1,997 kB/s 10s[0m                                                                                             Get:81 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libjavaewah-java all 0.7.9-1~18.04.1 [117 kB]
+[33m70% [81 libjavaewah-java 3,220 B/117 kB 3%]                                    1,997 kB/s 10s[0m[33m70% [Waiting for headers]                                                      1,997 kB/s 10s[0m                                                                                             Get:82 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjgit-java all 3.7.1-4 [1,816 kB]
+[33m70% [82 libjgit-java 3,291 B/1,816 kB 0%]                                      1,997 kB/s 10s[0m[33m71% [82 libjgit-java 854 kB/1,816 kB 47%]                                       1,997 kB/s 9s[0m[33m73% [Waiting for headers]                                                       1,997 kB/s 9s[0m                                                                                             Get:83 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libjs-jquery all 3.2.1-1 [152 kB]
+[33m73% [83 libjs-jquery 15.1 kB/152 kB 10%]                                        1,997 kB/s 9s[0m[33m73% [Working]                                                                   1,997 kB/s 9s[0m                                                                                             Get:84 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-utils2-java all 3.0.24-3 [246 kB]
+[33m73% [84 libplexus-utils2-java 8,527 B/246 kB 3%]                                1,997 kB/s 9s[0m[33m73% [Waiting for headers]                                                       1,997 kB/s 9s[0m                                                                                             Get:85 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libwagon-provider-api-java all 3.0.0-2 [48.2 kB]
+[33m73% [85 libwagon-provider-api-java 39.8 kB/48.2 kB 82%]                         1,997 kB/s 9s[0m[33m74% [Working]                                                                   1,997 kB/s 9s[0m                                                                                             Get:86 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libmaven-resolver-java all 1.3.1-1~18.04 [549 kB]
+[33m74% [86 libmaven-resolver-java 56.8 kB/549 kB 10%]                              1,997 kB/s 9s[0m[33m74% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:87 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libcommons-lang3-java all 3.8-1~18.04.2 [479 kB]
+[33m74% [87 libcommons-lang3-java 5,162 B/479 kB 1%]                                1,997 kB/s 8s[0m[33m75% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:88 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libgeronimo-annotation-1.3-spec-java all 1.0-1 [10.7 kB]
+[33m75% [88 libgeronimo-annotation-1.3-spec-java 1,597 B/10.7 kB 15%]               1,997 kB/s 8s[0m[33m75% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:89 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libmaven-parent-java all 31-2~18.04 [5,196 B]
+[33m75% [89 libmaven-parent-java 3,425 B/5,196 B 66%]                               1,997 kB/s 8s[0m[33m75% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:90 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libmaven-shared-utils-java all 3.3.0-1~18.04 [149 kB]
+[33m75% [90 libmaven-shared-utils-java 17.9 kB/149 kB 12%]                          1,997 kB/s 8s[0m[33m76% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:91 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-cipher-java all 1.7-3 [15.1 kB]
+[33m76% [91 libplexus-cipher-java 8,645 B/15.1 kB 57%]                              1,997 kB/s 8s[0m[33m76% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:92 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-classworlds-java all 2.5.2-2 [49.3 kB]
+[33m76% [92 libplexus-classworlds-java 4,736 B/49.3 kB 10%]                         1,997 kB/s 8s[0m[33m76% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:93 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-component-annotations-java all 1.7.1-7 [6,596 B]
+[33m76% [93 libplexus-component-annotations-java 6,596 B/6,596 B 100%]              1,997 kB/s 8s[0m[33m76% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:94 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-interpolation-java all 1.24-1 [73.4 kB]
+[33m76% [94 libplexus-interpolation-java 12.6 kB/73.4 kB 17%]                       1,997 kB/s 8s[0m[33m77% [Waiting for headers]                                                       1,997 kB/s 8s[0m                                                                                             Get:95 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-sec-dispatcher-java all 1.4-3 [28.0 kB]
+[33m77% [95 libplexus-sec-dispatcher-java 28.0 kB/28.0 kB 100%]                     1,997 kB/s 8s[0m[33m77% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:96 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libgeronimo-interceptor-3.0-spec-java all 1.0.1-4fakesync [8,616 B]
+[33m77% [96 libgeronimo-interceptor-3.0-spec-java 8,616 B/8,616 B 100%]             1,997 kB/s 8s[0m[33m77% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:97 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libcdi-api-java all 1.2-2 [54.5 kB]
+[33m77% [97 libcdi-api-java 54.5 kB/54.5 kB 100%]                                   1,997 kB/s 8s[0m[33m77% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:98 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libsisu-inject-java all 0.3.2-2 [346 kB]
+[33m77% [98 libsisu-inject-java 1,145 B/346 kB 0%]                                  1,997 kB/s 8s[0m[33m78% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:99 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libsisu-plexus-java all 0.3.3-3 [182 kB]
+[33m78% [99 libsisu-plexus-java 48.5 kB/182 kB 27%]                                 1,997 kB/s 8s[0m[33m78% [Working]                                                                   1,997 kB/s 8s[0m                                                                                             Get:100 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libmaven3-core-java all 3.6.0-1~18.04.1 [1,465 kB]
+[33m78% [100 libmaven3-core-java 35.3 kB/1,465 kB 2%]                               1,997 kB/s 8s[0m[33m79% [100 libmaven3-core-java 973 kB/1,465 kB 66%]                               1,997 kB/s 7s[0m[33m80% [Waiting for headers]                                                       1,997 kB/s 7s[0m                                                                                             Get:101 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-container-default-java all 1.7.1-7 [193 kB]
+[33m80% [101 libplexus-container-default-java 9,571 B/193 kB 5%]                    1,997 kB/s 7s[0m[33m80% [Working]                                                                   1,997 kB/s 7s[0m                                                                                             Get:102 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-container-default1.5-java all 1.7.1-7 [2,324 B]
+[33m80% [102 libplexus-container-default1.5-java 2,324 B/2,324 B 100%]              1,997 kB/s 7s[0m[33m80% [Working]                                                                   1,997 kB/s 7s[0m                                                                                             Get:103 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjaxp1.3-java all 1.3.05-5 [226 kB]
+[33m80% [103 libjaxp1.3-java 16.9 kB/226 kB 7%]                                     1,997 kB/s 7s[0m[33m81% [Waiting for headers]                                                       1,997 kB/s 7s[0m                                                                                             Get:104 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libxalan2-java all 2.7.2-1 [3,302 kB]
+[33m81% [104 libxalan2-java 5,216 B/3,302 kB 0%]                                    1,997 kB/s 7s[0m[33m82% [104 libxalan2-java 665 kB/3,302 kB 20%]                                    1,997 kB/s 6s[0m[33m83% [104 libxalan2-java 1,710 kB/3,302 kB 52%]                                  1,997 kB/s 6s[0m[33m84% [104 libxalan2-java 3,121 kB/3,302 kB 95%]                                  1,919 kB/s 5s[0m[33m85% [Working]                                                                   1,919 kB/s 5s[0m                                                                                             Get:105 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libplexus-utils-java all 1:1.5.15-5 [209 kB]
+[33m85% [105 libplexus-utils-java 3,109 B/209 kB 1%]                                1,919 kB/s 5s[0m[33m85% [Working]                                                                   1,919 kB/s 5s[0m                                                                                             Get:106 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libpolyglot-maven-java all 0.8~tobrien+git20120905-9 [74.8 kB]
+[33m85% [106 libpolyglot-maven-java 2,783 B/74.8 kB 4%]                             1,919 kB/s 5s[0m[33m85% [Waiting for headers]                                                       1,919 kB/s 5s[0m                                                                                             Get:107 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 librhino-java all 1.7.7.1-1 [1,150 kB]
+[33m85% [107 librhino-java 51.8 kB/1,150 kB 5%]                                     1,919 kB/s 5s[0m[33m87% [Waiting for headers]                                                       1,919 kB/s 5s[0m                                                                                             Get:108 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libsimple-http-java all 4.1.21-1fakesync1 [205 kB]
+[33m87% [108 libsimple-http-java 3,005 B/205 kB 1%]                                 1,919 kB/s 5s[0m[33m87% [Waiting for headers]                                                       1,919 kB/s 4s[0m                                                                                             Get:109 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libwagon-file-java all 3.0.0-2 [7,960 B]
+[33m87% [109 libwagon-file-java 4,845 B/7,960 B 61%]                                1,919 kB/s 4s[0m[33m87% [Waiting for headers]                                                       1,919 kB/s 4s[0m                                                                                             Get:110 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjsoup-java all 1.10.2-2 [337 kB]
+[33m87% [110 libjsoup-java 3,742 B/337 kB 1%]                                       1,919 kB/s 4s[0m[33m88% [Waiting for headers]                                                       1,919 kB/s 4s[0m                                                                                             Get:111 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libwagon-http-java all 3.0.0-2 [45.6 kB]
+[33m88% [111 libwagon-http-java 5,245 B/45.6 kB 12%]                                1,919 kB/s 4s[0m[33m88% [Working]                                                                   1,919 kB/s 4s[0m                                                                                             Get:112 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libjcommander-java all 1.71-3~18.04 [69.3 kB]
+[33m88% [112 libjcommander-java 3,635 B/69.3 kB 5%]                                 1,919 kB/s 4s[0m[33m88% [Waiting for headers]                                                       1,919 kB/s 4s[0m                                                                                             Get:113 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 testng all 6.9.12-2ubuntu1 [774 kB]
+[33m88% [113 testng 4,052 B/774 kB 1%]                                              1,919 kB/s 4s[0m[33m89% [Waiting for headers]                                                       1,919 kB/s 4s[0m                                                                                             Get:114 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libgradle-plugins-java all 4.4.1-5ubuntu2~18.04 [5,161 kB]
+[33m89% [114 libgradle-plugins-java 9,095 B/5,161 kB 0%]                            1,919 kB/s 4s[0m[33m91% [114 libgradle-plugins-java 1,449 kB/5,161 kB 28%]                          1,919 kB/s 3s[0m[33m92% [114 libgradle-plugins-java 2,121 kB/5,161 kB 41%]                          1,919 kB/s 3s[0m[33m93% [114 libgradle-plugins-java 3,064 kB/5,161 kB 59%]                          1,919 kB/s 2s[0m[33m94% [114 libgradle-plugins-java 4,446 kB/5,161 kB 86%]                          1,919 kB/s 2s[0m[33m95% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:115 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 gradle all 4.4.1-5ubuntu2~18.04 [400 kB]
+[33m95% [115 gradle 5,932 B/400 kB 1%]                                              1,919 kB/s 1s[0m[33m96% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:116 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 javascript-common all 11 [6,066 B]
+[33m96% [116 javascript-common 5,344 B/6,066 B 88%]                                 1,919 kB/s 1s[0m[33m96% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:117 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libfelix-osgi-obr-java all 1.0.2-4fakesync1 [7,168 B]
+[33m96% [117 libfelix-osgi-obr-java 7,168 B/7,168 B 100%]                           1,919 kB/s 1s[0m[33m96% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:118 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libkxml2-java all 2.3.0+ds1-2 [152 kB]
+[33m96% [118 libkxml2-java 12.5 kB/152 kB 8%]                                       1,919 kB/s 1s[0m[33m96% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:119 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libbindex-java all 2.2+svn101-4~18.04 [67.9 kB]
+[33m96% [119 libbindex-java 57.1 kB/67.9 kB 84%]                                    1,919 kB/s 1s[0m[33m97% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:120 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjcsp-java all 1.1-rc4-2 [607 kB]
+[33m97% [120 libjcsp-java 54.4 kB/607 kB 9%]                                        1,919 kB/s 1s[0m[33m97% [Waiting for headers]                                                       1,919 kB/s 1s[0m                                                                                             Get:121 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjsr166y-java all 1.7.0-2 [599 kB]
+[33m97% [121 libjsr166y-java 15.1 kB/599 kB 3%]                                     1,919 kB/s 1s[0m[33m98% [Waiting for headers]                                                       1,919 kB/s 0s[0m                                                                                             Get:122 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libmultiverse-core-java all 0.7.0-4 [219 kB]
+[33m98% [122 libmultiverse-core-java 4,132 B/219 kB 2%]                             1,919 kB/s 0s[0m[33m99% [Waiting for headers]                                                       1,919 kB/s 0s[0m                                                                                             Get:123 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libgpars-groovy-java all 1.2.1-10~18.04.1 [1,117 kB]
+[33m99% [123 libgpars-groovy-java 4,413 B/1,117 kB 0%]                              1,919 kB/s 0s[0m[33m100% [123 libgpars-groovy-java 1,071 kB/1,117 kB 96%]                           1,919 kB/s 0s[0m[33m100% [Working]                                                                  1,919 kB/s 0s[0m                                                                                             Fetched 72.7 MB in 37s (1,985 kB/s)
+Extracting templates from packages: 24%Extracting templates from packages: 48%Extracting templates from packages: 73%Extracting templates from packages: 97%Extracting templates from packages: 100%
+
+7[0;45r8[1ASelecting previously unselected package ant.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 167405 files and directories currently installed.)
+Preparing to unpack .../000-ant_1.10.5-3~18.04_all.deb ...
+7[46;0f[42m[30mProgress: [  0%][49m[39m [........................................................................] 8Unpacking ant (1.10.5-3~18.04) ...
+Selecting previously unselected package ant-optional.
+Preparing to unpack .../001-ant-optional_1.10.5-3~18.04_all.deb ...
+Unpacking ant-optional (1.10.5-3~18.04) ...
+Selecting previously unselected package libantlr-java.
+Preparing to unpack .../002-libantlr-java_2.7.7+dfsg-9.2_all.deb ...
+7[46;0f[42m[30mProgress: [  1%][49m[39m [........................................................................] 8Unpacking libantlr-java (2.7.7+dfsg-9.2) ...
+Selecting previously unselected package antlr.
+Preparing to unpack .../003-antlr_2.7.7+dfsg-9.2_all.deb ...
+Unpacking antlr (2.7.7+dfsg-9.2) ...
+Selecting previously unselected package java-wrappers.
+Preparing to unpack .../004-java-wrappers_0.3_all.deb ...
+7[46;0f[42m[30mProgress: [  2%][49m[39m [#.......................................................................] 8Unpacking java-wrappers (0.3) ...
+Selecting previously unselected package libhamcrest-java.
+Preparing to unpack .../005-libhamcrest-java_1.3-7_all.deb ...
+Unpacking libhamcrest-java (1.3-7) ...
+Selecting previously unselected package junit4.
+Preparing to unpack .../006-junit4_4.12-8~18.04_all.deb ...
+7[46;0f[42m[30mProgress: [  3%][49m[39m [##......................................................................] 8Unpacking junit4 (4.12-8~18.04) ...
+Selecting previously unselected package libfelix-framework-java.
+Preparing to unpack .../007-libfelix-framework-java_4.6.1-2_all.deb ...
+Unpacking libfelix-framework-java (4.6.1-2) ...
+Selecting previously unselected package libfelix-gogo-runtime-java.
+Preparing to unpack .../008-libfelix-gogo-runtime-java_0.16.2-1_all.deb ...
+7[46;0f[42m[30mProgress: [  4%][49m[39m [##......................................................................] 8Unpacking libfelix-gogo-runtime-java (0.16.2-1) ...
+Selecting previously unselected package libosgi-annotation-java.
+Preparing to unpack .../009-libosgi-annotation-java_6.0.0-2_all.deb ...
+Unpacking libosgi-annotation-java (6.0.0-2) ...
+Selecting previously unselected package libosgi-core-java.
+Preparing to unpack .../010-libosgi-core-java_6.0.0-1_all.deb ...
+7[46;0f[42m[30mProgress: [  5%][49m[39m [###.....................................................................] 8Unpacking libosgi-core-java (6.0.0-1) ...
+Selecting previously unselected package libfelix-resolver-java.
+Preparing to unpack .../011-libfelix-resolver-java_1.14.0-1_all.deb ...
+Unpacking libfelix-resolver-java (1.14.0-1) ...
+Selecting previously unselected package libosgi-compendium-java.
+Preparing to unpack .../012-libosgi-compendium-java_6.0.0-1_all.deb ...
+7[46;0f[42m[30mProgress: [  6%][49m[39m [####....................................................................] 8Unpacking libosgi-compendium-java (6.0.0-1) ...
+Selecting previously unselected package libslf4j-java.
+Preparing to unpack .../013-libslf4j-java_1.7.25-3_all.deb ...
+Unpacking libslf4j-java (1.7.25-3) ...
+Selecting previously unselected package libxz-java.
+Preparing to unpack .../014-libxz-java_1.8-1_all.deb ...
+Unpacking libxz-java (1.8-1) ...
+7[46;0f[42m[30mProgress: [  7%][49m[39m [#####...................................................................] 8Selecting previously unselected package libyaml-snake-java.
+Preparing to unpack .../015-libyaml-snake-java_1.23-1~18.04_all.deb ...
+Unpacking libyaml-snake-java (1.23-1~18.04) ...
+Selecting previously unselected package bnd.
+Preparing to unpack .../016-bnd_3.5.0-4~18.04_all.deb ...
+Unpacking bnd (3.5.0-4~18.04) ...
+7[46;0f[42m[30mProgress: [  8%][49m[39m [#####...................................................................] 8Selecting previously unselected package ivy.
+Preparing to unpack .../017-ivy_2.4.0-3_all.deb ...
+Unpacking ivy (2.4.0-3) ...
+Selecting previously unselected package libasm-java.
+Preparing to unpack .../018-libasm-java_7.0-1~18.04_all.deb ...
+Unpacking libasm-java (7.0-1~18.04) ...
+7[46;0f[42m[30mProgress: [  9%][49m[39m [######..................................................................] 8Selecting previously unselected package libapache-pom-java.
+Preparing to unpack .../019-libapache-pom-java_18-1_all.deb ...
+Unpacking libapache-pom-java (18-1) ...
+Selecting previously unselected package libbsf-java.
+Preparing to unpack .../020-libbsf-java_1%3a2.4.0-5build1_all.deb ...
+Unpacking libbsf-java (1:2.4.0-5build1) ...
+7[46;0f[42m[30mProgress: [ 10%][49m[39m [#######.................................................................] 8Selecting previously unselected package libcommons-cli-java.
+Preparing to unpack .../021-libcommons-cli-java_1.4-1_all.deb ...
+Unpacking libcommons-cli-java (1.4-1) ...
+Selecting previously unselected package libcommons-parent-java.
+Preparing to unpack .../022-libcommons-parent-java_43-1_all.deb ...
+Unpacking libcommons-parent-java (43-1) ...
+7[46;0f[42m[30mProgress: [ 11%][49m[39m [#######.................................................................] 8Selecting previously unselected package libcommons-logging-java.
+Preparing to unpack .../023-libcommons-logging-java_1.2-2_all.deb ...
+Unpacking libcommons-logging-java (1.2-2) ...
+Selecting previously unselected package libhawtjni-runtime-java.
+Preparing to unpack .../024-libhawtjni-runtime-java_1.15-2_all.deb ...
+Unpacking libhawtjni-runtime-java (1.15-2) ...
+7[46;0f[42m[30mProgress: [ 12%][49m[39m [########................................................................] 8Selecting previously unselected package libjansi-native-java.
+Preparing to unpack .../025-libjansi-native-java_1.7-1_all.deb ...
+Unpacking libjansi-native-java (1.7-1) ...
+Selecting previously unselected package libjansi-java.
+Preparing to unpack .../026-libjansi-java_1.16-1_all.deb ...
+Unpacking libjansi-java (1.16-1) ...
+7[46;0f[42m[30mProgress: [ 13%][49m[39m [#########...............................................................] 8Selecting previously unselected package libjline2-java.
+Preparing to unpack .../027-libjline2-java_2.14.6-1_all.deb ...
+Unpacking libjline2-java (2.14.6-1) ...
+Selecting previously unselected package libqdox-java.
+Preparing to unpack .../028-libqdox-java_1.12.1-3_all.deb ...
+Unpacking libqdox-java (1.12.1-3) ...
+7[46;0f[42m[30mProgress: [ 14%][49m[39m [##########..............................................................] 8Selecting previously unselected package libservlet-api-java.
+Preparing to unpack .../029-libservlet-api-java_4.0.1-2~18.04_all.deb ...
+Unpacking libservlet-api-java (4.0.1-2~18.04) ...
+Selecting previously unselected package libjsp-api-java.
+Preparing to unpack .../030-libjsp-api-java_2.3.4-2~18.04_all.deb ...
+Unpacking libjsp-api-java (2.3.4-2~18.04) ...
+7[46;0f[42m[30mProgress: [ 15%][49m[39m [##########..............................................................] 8Selecting previously unselected package libel-api-java.
+Preparing to unpack .../031-libel-api-java_3.0.0-2~18.04_all.deb ...
+Unpacking libel-api-java (3.0.0-2~18.04) ...
+Selecting previously unselected package libwebsocket-api-java.
+Preparing to unpack .../032-libwebsocket-api-java_1.1-1~18.04_all.deb ...
+Unpacking libwebsocket-api-java (1.1-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 16%][49m[39m [###########.............................................................] 8Selecting previously unselected package libservlet3.1-java.
+Preparing to unpack .../033-libservlet3.1-java_1%3a4.0.1-2~18.04_all.deb ...
+Unpacking libservlet3.1-java (1:4.0.1-2~18.04) ...
+Selecting previously unselected package libxpp3-java.
+Preparing to unpack .../034-libxpp3-java_1.1.4c-3_all.deb ...
+Unpacking libxpp3-java (1.1.4c-3) ...
+7[46;0f[42m[30mProgress: [ 17%][49m[39m [############............................................................] 8Selecting previously unselected package libxstream-java.
+Preparing to unpack .../035-libxstream-java_1.4.11.1-1~18.04_all.deb ...
+Unpacking libxstream-java (1.4.11.1-1~18.04) ...
+Selecting previously unselected package groovy.
+Preparing to unpack .../036-groovy_2.4.16-1ubuntu1~18.04.1_all.deb ...
+Unpacking groovy (2.4.16-1ubuntu1~18.04.1) ...
+7[46;0f[42m[30mProgress: [ 18%][49m[39m [############............................................................] 8Selecting previously unselected package libatinject-jsr330-api-java.
+Preparing to unpack .../037-libatinject-jsr330-api-java_1.0+ds1-5_all.deb ...
+Unpacking libatinject-jsr330-api-java (1.0+ds1-5) ...
+Selecting previously unselected package libcommons-collections3-java.
+Preparing to unpack .../038-libcommons-collections3-java_3.2.2-2~18.04_all.deb ...
+Unpacking libcommons-collections3-java (3.2.2-2~18.04) ...
+Selecting previously unselected package libcommons-compress-java.
+Preparing to unpack .../039-libcommons-compress-java_1.18-1~18.04_all.deb ...
+7[46;0f[42m[30mProgress: [ 19%][49m[39m [#############...........................................................] 8Unpacking libcommons-compress-java (1.18-1~18.04) ...
+Selecting previously unselected package libcommons-io-java.
+Preparing to unpack .../040-libcommons-io-java_2.6-2_all.deb ...
+Unpacking libcommons-io-java (2.6-2) ...
+Selecting previously unselected package libcommons-lang-java.
+Preparing to unpack .../041-libcommons-lang-java_2.6-8_all.deb ...
+7[46;0f[42m[30mProgress: [ 20%][49m[39m [##############..........................................................] 8Unpacking libcommons-lang-java (2.6-8) ...
+Selecting previously unselected package libjsr305-java.
+Preparing to unpack .../042-libjsr305-java_0.1~+svn49-10_all.deb ...
+Unpacking libjsr305-java (0.1~+svn49-10) ...
+Selecting previously unselected package libguava-java.
+Preparing to unpack .../043-libguava-java_19.0-1_all.deb ...
+7[46;0f[42m[30mProgress: [ 21%][49m[39m [###############.........................................................] 8Unpacking libguava-java (19.0-1) ...
+Selecting previously unselected package libcommons-codec-java.
+Preparing to unpack .../044-libcommons-codec-java_1.11-1_all.deb ...
+Unpacking libcommons-codec-java (1.11-1) ...
+Selecting previously unselected package libhttpcore-java.
+Preparing to unpack .../045-libhttpcore-java_4.4.9-1_all.deb ...
+7[46;0f[42m[30mProgress: [ 22%][49m[39m [###############.........................................................] 8Unpacking libhttpcore-java (4.4.9-1) ...
+Selecting previously unselected package libhttpclient-java.
+Preparing to unpack .../046-libhttpclient-java_4.5.5-1_all.deb ...
+Unpacking libhttpclient-java (4.5.5-1) ...
+Selecting previously unselected package libjarjar-java.
+Preparing to unpack .../047-libjarjar-java_1.4+svn142-8_all.deb ...
+7[46;0f[42m[30mProgress: [ 23%][49m[39m [################........................................................] 8Unpacking libjarjar-java (1.4+svn142-8) ...
+Selecting previously unselected package libjcip-annotations-java.
+Preparing to unpack .../048-libjcip-annotations-java_20060626-5_all.deb ...
+Unpacking libjcip-annotations-java (20060626-5) ...
+Selecting previously unselected package libjna-jni.
+Preparing to unpack .../049-libjna-jni_4.5.1-1_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 24%][49m[39m [#################.......................................................] 8Unpacking libjna-jni (4.5.1-1) ...
+Selecting previously unselected package libjna-java.
+Preparing to unpack .../050-libjna-java_4.5.1-1_all.deb ...
+Unpacking libjna-java (4.5.1-1) ...
+Selecting previously unselected package libjzlib-java.
+Preparing to unpack .../051-libjzlib-java_1.1.3-2_all.deb ...
+7[46;0f[42m[30mProgress: [ 25%][49m[39m [##################......................................................] 8Unpacking libjzlib-java (1.1.3-2) ...
+Selecting previously unselected package libjsch-java.
+Preparing to unpack .../052-libjsch-java_0.1.54-1_all.deb ...
+Unpacking libjsch-java (0.1.54-1) ...
+Selecting previously unselected package libminlog-java.
+Preparing to unpack .../053-libminlog-java_1.3.0-1_all.deb ...
+Unpacking libminlog-java (1.3.0-1) ...
+7[46;0f[42m[30mProgress: [ 26%][49m[39m [##################......................................................] 8Selecting previously unselected package libobjenesis-java.
+Preparing to unpack .../054-libobjenesis-java_3.0.1-2~18.04_all.deb ...
+Unpacking libobjenesis-java (3.0.1-2~18.04) ...
+Selecting previously unselected package libreflectasm-java.
+Preparing to unpack .../055-libreflectasm-java_1.05-4_all.deb ...
+Unpacking libreflectasm-java (1.05-4) ...
+7[46;0f[42m[30mProgress: [ 27%][49m[39m [###################.....................................................] 8Selecting previously unselected package libkryo-java.
+Preparing to unpack .../056-libkryo-java_2.20-6_all.deb ...
+Unpacking libkryo-java (2.20-6) ...
+Selecting previously unselected package liblogback-java.
+Preparing to unpack .../057-liblogback-java_1%3a1.2.3-2ubuntu1~18.04.1_all.deb ...
+Unpacking liblogback-java (1:1.2.3-2ubuntu1~18.04.1) ...
+7[46;0f[42m[30mProgress: [ 28%][49m[39m [####################....................................................] 8Selecting previously unselected package libnative-platform-jni.
+Preparing to unpack .../058-libnative-platform-jni_0.14-3_amd64.deb ...
+Unpacking libnative-platform-jni (0.14-3) ...
+Selecting previously unselected package libnative-platform-java.
+Preparing to unpack .../059-libnative-platform-java_0.14-3_all.deb ...
+Unpacking libnative-platform-java (0.14-3) ...
+7[46;0f[42m[30mProgress: [ 29%][49m[39m [####################....................................................] 8Selecting previously unselected package libxml-commons-external-java.
+Preparing to unpack .../060-libxml-commons-external-java_1.4.01-3_all.deb ...
+Unpacking libxml-commons-external-java (1.4.01-3) ...
+Selecting previously unselected package libxml-commons-resolver1.1-java.
+Preparing to unpack .../061-libxml-commons-resolver1.1-java_1.2-9_all.deb ...
+Unpacking libxml-commons-resolver1.1-java (1.2-9) ...
+7[46;0f[42m[30mProgress: [ 30%][49m[39m [#####################...................................................] 8Selecting previously unselected package libxerces2-java.
+Preparing to unpack .../062-libxerces2-java_2.11.0-8_all.deb ...
+Unpacking libxerces2-java (2.11.0-8) ...
+Selecting previously unselected package libnekohtml-java.
+Preparing to unpack .../063-libnekohtml-java_1.9.22-1_all.deb ...
+Unpacking libnekohtml-java (1.9.22-1) ...
+7[46;0f[42m[30mProgress: [ 31%][49m[39m [######################..................................................] 8Selecting previously unselected package libxbean-reflect-java.
+Preparing to unpack .../064-libxbean-reflect-java_4.5-6_all.deb ...
+Unpacking libxbean-reflect-java (4.5-6) ...
+Selecting previously unselected package libgradle-core-java.
+Preparing to unpack .../065-libgradle-core-java_4.4.1-5ubuntu2~18.04_all.deb ...
+Unpacking libgradle-core-java (4.4.1-5ubuntu2~18.04) ...
+7[46;0f[42m[30mProgress: [ 32%][49m[39m [#######################.................................................] 8Selecting previously unselected package libbcprov-java.
+Preparing to unpack .../066-libbcprov-java_1.59-1_all.deb ...
+Unpacking libbcprov-java (1.59-1) ...
+Selecting previously unselected package libbcpg-java.
+Preparing to unpack .../067-libbcpg-java_1.59-1_all.deb ...
+Unpacking libbcpg-java (1.59-1) ...
+7[46;0f[42m[30mProgress: [ 33%][49m[39m [#######################.................................................] 8Selecting previously unselected package libbsh-java.
+Preparing to unpack .../068-libbsh-java_2.0b4-19_all.deb ...
+Unpacking libbsh-java (2.0b4-19) ...
+Selecting previously unselected package libdd-plist-java.
+Preparing to unpack .../069-libdd-plist-java_1.20-1~18.04.1_all.deb ...
+Unpacking libdd-plist-java (1.20-1~18.04.1) ...
+7[46;0f[42m[30mProgress: [ 34%][49m[39m [########################................................................] 8Selecting previously unselected package libjaxen-java.
+Preparing to unpack .../070-libjaxen-java_1.1.6-3_all.deb ...
+Unpacking libjaxen-java (1.1.6-3) ...
+Selecting previously unselected package libdom4j-java.
+Preparing to unpack .../071-libdom4j-java_2.1.0-2_all.deb ...
+Unpacking libdom4j-java (2.1.0-2) ...
+7[46;0f[42m[30mProgress: [ 35%][49m[39m [#########################...............................................] 8Selecting previously unselected package libbcel-java.
+Preparing to unpack .../072-libbcel-java_6.2-1_all.deb ...
+Unpacking libbcel-java (6.2-1) ...
+Selecting previously unselected package libjformatstring-java.
+Preparing to unpack .../073-libjformatstring-java_0.10~20131207-2_all.deb ...
+Unpacking libjformatstring-java (0.10~20131207-2) ...
+7[46;0f[42m[30mProgress: [ 36%][49m[39m [#########################...............................................] 8Selecting previously unselected package libfindbugs-java.
+Preparing to unpack .../074-libfindbugs-java_3.1.0~preview2-3_all.deb ...
+Unpacking libfindbugs-java (3.1.0~preview2-3) ...
+Selecting previously unselected package libgoogle-gson-java.
+Preparing to unpack .../075-libgoogle-gson-java_2.8.5-3~18.04_all.deb ...
+Unpacking libgoogle-gson-java (2.8.5-3~18.04) ...
+7[46;0f[42m[30mProgress: [ 37%][49m[39m [##########################..............................................] 8Selecting previously unselected package libaopalliance-java.
+Preparing to unpack .../076-libaopalliance-java_20070526-6_all.deb ...
+Unpacking libaopalliance-java (20070526-6) ...
+Selecting previously unselected package libguice-java.
+Preparing to unpack .../077-libguice-java_4.0-4_all.deb ...
+Unpacking libguice-java (4.0-4) ...
+Selecting previously unselected package libjatl-java.
+Preparing to unpack .../078-libjatl-java_0.2.3-1_all.deb ...
+7[46;0f[42m[30mProgress: [ 38%][49m[39m [###########################.............................................] 8Unpacking libjatl-java (0.2.3-1) ...
+Selecting previously unselected package libjcifs-java.
+Preparing to unpack .../079-libjcifs-java_1.3.19-2_all.deb ...
+Unpacking libjcifs-java (1.3.19-2) ...
+Selecting previously unselected package libjavaewah-java.
+Preparing to unpack .../080-libjavaewah-java_0.7.9-1~18.04.1_all.deb ...
+7[46;0f[42m[30mProgress: [ 39%][49m[39m [############################............................................] 8Unpacking libjavaewah-java (0.7.9-1~18.04.1) ...
+Selecting previously unselected package libjgit-java.
+Preparing to unpack .../081-libjgit-java_3.7.1-4_all.deb ...
+Unpacking libjgit-java (3.7.1-4) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../082-libjs-jquery_3.2.1-1_all.deb ...
+7[46;0f[42m[30mProgress: [ 40%][49m[39m [############################............................................] 8Unpacking libjs-jquery (3.2.1-1) ...
+Selecting previously unselected package libplexus-utils2-java.
+Preparing to unpack .../083-libplexus-utils2-java_3.0.24-3_all.deb ...
+Unpacking libplexus-utils2-java (3.0.24-3) ...
+Selecting previously unselected package libwagon-provider-api-java.
+Preparing to unpack .../084-libwagon-provider-api-java_3.0.0-2_all.deb ...
+7[46;0f[42m[30mProgress: [ 41%][49m[39m [#############################...........................................] 8Unpacking libwagon-provider-api-java (3.0.0-2) ...
+Selecting previously unselected package libmaven-resolver-java.
+Preparing to unpack .../085-libmaven-resolver-java_1.3.1-1~18.04_all.deb ...
+Unpacking libmaven-resolver-java (1.3.1-1~18.04) ...
+Selecting previously unselected package libcommons-lang3-java.
+Preparing to unpack .../086-libcommons-lang3-java_3.8-1~18.04.2_all.deb ...
+7[46;0f[42m[30mProgress: [ 42%][49m[39m [##############################..........................................] 8Unpacking libcommons-lang3-java (3.8-1~18.04.2) ...
+Selecting previously unselected package libgeronimo-annotation-1.3-spec-java.
+Preparing to unpack .../087-libgeronimo-annotation-1.3-spec-java_1.0-1_all.deb ...
+Unpacking libgeronimo-annotation-1.3-spec-java (1.0-1) ...
+Selecting previously unselected package libmaven-parent-java.
+Preparing to unpack .../088-libmaven-parent-java_31-2~18.04_all.deb ...
+7[46;0f[42m[30mProgress: [ 43%][49m[39m [##############################..........................................] 8Unpacking libmaven-parent-java (31-2~18.04) ...
+Selecting previously unselected package libmaven-shared-utils-java.
+Preparing to unpack .../089-libmaven-shared-utils-java_3.3.0-1~18.04_all.deb ...
+Unpacking libmaven-shared-utils-java (3.3.0-1~18.04) ...
+Selecting previously unselected package libplexus-cipher-java.
+Preparing to unpack .../090-libplexus-cipher-java_1.7-3_all.deb ...
+Unpacking libplexus-cipher-java (1.7-3) ...
+7[46;0f[42m[30mProgress: [ 44%][49m[39m [###############################.........................................] 8Selecting previously unselected package libplexus-classworlds-java.
+Preparing to unpack .../091-libplexus-classworlds-java_2.5.2-2_all.deb ...
+Unpacking libplexus-classworlds-java (2.5.2-2) ...
+Selecting previously unselected package libplexus-component-annotations-java.
+Preparing to unpack .../092-libplexus-component-annotations-java_1.7.1-7_all.deb ...
+Unpacking libplexus-component-annotations-java (1.7.1-7) ...
+7[46;0f[42m[30mProgress: [ 45%][49m[39m [################################........................................] 8Selecting previously unselected package libplexus-interpolation-java.
+Preparing to unpack .../093-libplexus-interpolation-java_1.24-1_all.deb ...
+Unpacking libplexus-interpolation-java (1.24-1) ...
+Selecting previously unselected package libplexus-sec-dispatcher-java.
+Preparing to unpack .../094-libplexus-sec-dispatcher-java_1.4-3_all.deb ...
+Unpacking libplexus-sec-dispatcher-java (1.4-3) ...
+7[46;0f[42m[30mProgress: [ 46%][49m[39m [#################################.......................................] 8Selecting previously unselected package libgeronimo-interceptor-3.0-spec-java.
+Preparing to unpack .../095-libgeronimo-interceptor-3.0-spec-java_1.0.1-4fakesync_all.deb ...
+Unpacking libgeronimo-interceptor-3.0-spec-java (1.0.1-4fakesync) ...
+Selecting previously unselected package libcdi-api-java.
+Preparing to unpack .../096-libcdi-api-java_1.2-2_all.deb ...
+Unpacking libcdi-api-java (1.2-2) ...
+7[46;0f[42m[30mProgress: [ 47%][49m[39m [#################################.......................................] 8Selecting previously unselected package libsisu-inject-java.
+Preparing to unpack .../097-libsisu-inject-java_0.3.2-2_all.deb ...
+Unpacking libsisu-inject-java (0.3.2-2) ...
+Selecting previously unselected package libsisu-plexus-java.
+Preparing to unpack .../098-libsisu-plexus-java_0.3.3-3_all.deb ...
+Unpacking libsisu-plexus-java (0.3.3-3) ...
+7[46;0f[42m[30mProgress: [ 48%][49m[39m [##################################......................................] 8Selecting previously unselected package libmaven3-core-java.
+Preparing to unpack .../099-libmaven3-core-java_3.6.0-1~18.04.1_all.deb ...
+Unpacking libmaven3-core-java (3.6.0-1~18.04.1) ...
+Selecting previously unselected package libplexus-container-default-java.
+Preparing to unpack .../100-libplexus-container-default-java_1.7.1-7_all.deb ...
+Unpacking libplexus-container-default-java (1.7.1-7) ...
+7[46;0f[42m[30mProgress: [ 49%][49m[39m [###################################.....................................] 8Selecting previously unselected package libplexus-container-default1.5-java.
+Preparing to unpack .../101-libplexus-container-default1.5-java_1.7.1-7_all.deb ...
+Unpacking libplexus-container-default1.5-java (1.7.1-7) ...
+Selecting previously unselected package libjaxp1.3-java.
+Preparing to unpack .../102-libjaxp1.3-java_1.3.05-5_all.deb ...
+Unpacking libjaxp1.3-java (1.3.05-5) ...
+7[46;0f[42m[30mProgress: [ 50%][49m[39m [####################################....................................] 8Selecting previously unselected package libxalan2-java.
+Preparing to unpack .../103-libxalan2-java_2.7.2-1_all.deb ...
+Unpacking libxalan2-java (2.7.2-1) ...
+Selecting previously unselected package libplexus-utils-java.
+Preparing to unpack .../104-libplexus-utils-java_1%3a1.5.15-5_all.deb ...
+Unpacking libplexus-utils-java (1:1.5.15-5) ...
+7[46;0f[42m[30mProgress: [ 51%][49m[39m [####################################....................................] 8Selecting previously unselected package libpolyglot-maven-java.
+Preparing to unpack .../105-libpolyglot-maven-java_0.8~tobrien+git20120905-9_all.deb ...
+Unpacking libpolyglot-maven-java (0.8~tobrien+git20120905-9) ...
+Selecting previously unselected package librhino-java.
+Preparing to unpack .../106-librhino-java_1.7.7.1-1_all.deb ...
+Unpacking librhino-java (1.7.7.1-1) ...
+7[46;0f[42m[30mProgress: [ 52%][49m[39m [#####################################...................................] 8Selecting previously unselected package libsimple-http-java.
+Preparing to unpack .../107-libsimple-http-java_4.1.21-1fakesync1_all.deb ...
+Unpacking libsimple-http-java (4.1.21-1fakesync1) ...
+Selecting previously unselected package libwagon-file-java.
+Preparing to unpack .../108-libwagon-file-java_3.0.0-2_all.deb ...
+Unpacking libwagon-file-java (3.0.0-2) ...
+7[46;0f[42m[30mProgress: [ 53%][49m[39m [######################################..................................] 8Selecting previously unselected package libjsoup-java.
+Preparing to unpack .../109-libjsoup-java_1.10.2-2_all.deb ...
+Unpacking libjsoup-java (1.10.2-2) ...
+Selecting previously unselected package libwagon-http-java.
+Preparing to unpack .../110-libwagon-http-java_3.0.0-2_all.deb ...
+Unpacking libwagon-http-java (3.0.0-2) ...
+7[46;0f[42m[30mProgress: [ 54%][49m[39m [######################################..................................] 8Selecting previously unselected package libjcommander-java.
+Preparing to unpack .../111-libjcommander-java_1.71-3~18.04_all.deb ...
+Unpacking libjcommander-java (1.71-3~18.04) ...
+Selecting previously unselected package testng.
+Preparing to unpack .../112-testng_6.9.12-2ubuntu1_all.deb ...
+Unpacking testng (6.9.12-2ubuntu1) ...
+7[46;0f[42m[30mProgress: [ 55%][49m[39m [#######################################.................................] 8Selecting previously unselected package libgradle-plugins-java.
+Preparing to unpack .../113-libgradle-plugins-java_4.4.1-5ubuntu2~18.04_all.deb ...
+Unpacking libgradle-plugins-java (4.4.1-5ubuntu2~18.04) ...
+Selecting previously unselected package gradle.
+Preparing to unpack .../114-gradle_4.4.1-5ubuntu2~18.04_all.deb ...
+Unpacking gradle (4.4.1-5ubuntu2~18.04) ...
+7[46;0f[42m[30mProgress: [ 56%][49m[39m [########################################................................] 8Selecting previously unselected package javascript-common.
+Preparing to unpack .../115-javascript-common_11_all.deb ...
+Unpacking javascript-common (11) ...
+Selecting previously unselected package libfelix-osgi-obr-java.
+Preparing to unpack .../116-libfelix-osgi-obr-java_1.0.2-4fakesync1_all.deb ...
+Unpacking libfelix-osgi-obr-java (1.0.2-4fakesync1) ...
+Selecting previously unselected package libkxml2-java.
+Preparing to unpack .../117-libkxml2-java_2.3.0+ds1-2_all.deb ...
+7[46;0f[42m[30mProgress: [ 57%][49m[39m [#########################################...............................] 8Unpacking libkxml2-java (2.3.0+ds1-2) ...
+Selecting previously unselected package libbindex-java.
+Preparing to unpack .../118-libbindex-java_2.2+svn101-4~18.04_all.deb ...
+Unpacking libbindex-java (2.2+svn101-4~18.04) ...
+Selecting previously unselected package libjcsp-java.
+Preparing to unpack .../119-libjcsp-java_1.1-rc4-2_all.deb ...
+7[46;0f[42m[30mProgress: [ 58%][49m[39m [#########################################...............................] 8Unpacking libjcsp-java (1.1-rc4-2) ...
+Selecting previously unselected package libjsr166y-java.
+Preparing to unpack .../120-libjsr166y-java_1.7.0-2_all.deb ...
+Unpacking libjsr166y-java (1.7.0-2) ...
+Selecting previously unselected package libmultiverse-core-java.
+Preparing to unpack .../121-libmultiverse-core-java_0.7.0-4_all.deb ...
+7[46;0f[42m[30mProgress: [ 59%][49m[39m [##########################################..............................] 8Unpacking libmultiverse-core-java (0.7.0-4) ...
+Selecting previously unselected package libgpars-groovy-java.
+Preparing to unpack .../122-libgpars-groovy-java_1.2.1-10~18.04.1_all.deb ...
+Unpacking libgpars-groovy-java (1.2.1-10~18.04.1) ...
+Setting up libjs-jquery (3.2.1-1) ...
+7[46;0f[42m[30mProgress: [ 60%][49m[39m [###########################################.............................] 8Setting up libslf4j-java (1.7.25-3) ...
+Setting up libosgi-annotation-java (6.0.0-2) ...
+Setting up libplexus-classworlds-java (2.5.2-2) ...
+7[46;0f[42m[30mProgress: [ 61%][49m[39m [###########################################.............................] 8Setting up libantlr-java (2.7.7+dfsg-9.2) ...
+Setting up libservlet-api-java (4.0.1-2~18.04) ...
+Setting up libcommons-collections3-java (3.2.2-2~18.04) ...
+7[46;0f[42m[30mProgress: [ 62%][49m[39m [############################################............................] 8Setting up libfelix-gogo-runtime-java (0.16.2-1) ...
+Setting up libjaxp1.3-java (1.3.05-5) ...
+Setting up libmultiverse-core-java (0.7.0-4) ...
+7[46;0f[42m[30mProgress: [ 63%][49m[39m [#############################################...........................] 8Setting up libhawtjni-runtime-java (1.15-2) ...
+Setting up libhttpcore-java (4.4.9-1) ...
+Setting up libyaml-snake-java (1.23-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 64%][49m[39m [##############################################..........................] 8Setting up libqdox-java (1.12.1-3) ...
+Setting up libjcsp-java (1.1-rc4-2) ...
+Setting up libfelix-framework-java (4.6.1-2) ...
+7[46;0f[42m[30mProgress: [ 65%][49m[39m [##############################################..........................] 8Setting up libosgi-core-java (6.0.0-1) ...
+Setting up libjsoup-java (1.10.2-2) ...
+Setting up libjsr166y-java (1.7.0-2) ...
+7[46;0f[42m[30mProgress: [ 66%][49m[39m [###############################################.........................] 8Setting up libplexus-cipher-java (1.7-3) ...
+Setting up libxml-commons-external-java (1.4.01-3) ...
+Setting up liblogback-java (1:1.2.3-2ubuntu1~18.04.1) ...
+7[46;0f[42m[30mProgress: [ 67%][49m[39m [################################################........................] 8Setting up antlr (2.7.7+dfsg-9.2) ...
+Setting up java-wrappers (0.3) ...
+Setting up libxbean-reflect-java (4.5-6) ...
+7[46;0f[42m[30mProgress: [ 68%][49m[39m [################################################........................] 8Setting up libjavaewah-java (0.7.9-1~18.04.1) ...
+Setting up libfelix-resolver-java (1.14.0-1) ...
+Setting up libjsp-api-java (2.3.4-2~18.04) ...
+Setting up libplexus-interpolation-java (1.24-1) ...
+7[46;0f[42m[30mProgress: [ 69%][49m[39m [#################################################.......................] 8Setting up libjcip-annotations-java (20060626-5) ...
+Setting up libplexus-component-annotations-java (1.7.1-7) ...
+Setting up libminlog-java (1.3.0-1) ...
+7[46;0f[42m[30mProgress: [ 70%][49m[39m [##################################################......................] 8Setting up libplexus-utils2-java (3.0.24-3) ...
+Setting up libwagon-provider-api-java (3.0.0-2) ...
+Setting up libjsr305-java (0.1~+svn49-10) ...
+7[46;0f[42m[30mProgress: [ 71%][49m[39m [###################################################.....................] 8Setting up libxml-commons-resolver1.1-java (1.2-9) ...
+Setting up libdd-plist-java (1.20-1~18.04.1) ...
+Setting up libjcifs-java (1.3.19-2) ...
+7[46;0f[42m[30mProgress: [ 72%][49m[39m [###################################################.....................] 8Setting up libxz-java (1.8-1) ...
+Setting up libgeronimo-interceptor-3.0-spec-java (1.0.1-4fakesync) ...
+Setting up libmaven-resolver-java (1.3.1-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 73%][49m[39m [####################################################....................] 8Setting up ant (1.10.5-3~18.04) ...
+Setting up libjaxen-java (1.1.6-3) ...
+Setting up libjcommander-java (1.71-3~18.04) ...
+7[46;0f[42m[30mProgress: [ 74%][49m[39m [#####################################################...................] 8Setting up libjarjar-java (1.4+svn142-8) ...
+Setting up libjansi-native-java (1.7-1) ...
+Setting up libapache-pom-java (18-1) ...
+7[46;0f[42m[30mProgress: [ 75%][49m[39m [######################################################..................] 8Setting up libasm-java (7.0-1~18.04) ...
+Setting up libobjenesis-java (3.0.1-2~18.04) ...
+Setting up libel-api-java (3.0.0-2~18.04) ...
+7[46;0f[42m[30mProgress: [ 76%][49m[39m [######################################################..................] 8Setting up libosgi-compendium-java (6.0.0-1) ...
+Setting up libatinject-jsr330-api-java (1.0+ds1-5) ...
+Setting up ivy (2.4.0-3) ...
+7[46;0f[42m[30mProgress: [ 77%][49m[39m [#######################################################.................] 8Setting up librhino-java (1.7.7.1-1) ...
+Setting up libmaven-parent-java (31-2~18.04) ...
+Setting up libjatl-java (0.2.3-1) ...
+7[46;0f[42m[30mProgress: [ 78%][49m[39m [########################################################................] 8Setting up libjzlib-java (1.1.3-2) ...
+Setting up libjsch-java (0.1.54-1) ...
+Setting up libjformatstring-java (0.10~20131207-2) ...
+7[46;0f[42m[30mProgress: [ 79%][49m[39m [########################################################................] 8Setting up javascript-common (11) ...
+Setting up libbcprov-java (1.59-1) ...
+Setting up libbsh-java (2.0b4-19) ...
+7[46;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################...............] 8Setting up libgoogle-gson-java (2.8.5-3~18.04) ...
+Setting up libxpp3-java (1.1.4c-3) ...
+Setting up libwebsocket-api-java (1.1-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 81%][49m[39m [##########################################################..............] 8Setting up libaopalliance-java (20070526-6) ...
+Setting up libjna-jni (4.5.1-1) ...
+Setting up libpolyglot-maven-java (0.8~tobrien+git20120905-9) ...
+Setting up libgeronimo-annotation-1.3-spec-java (1.0-1) ...
+7[46;0f[42m[30mProgress: [ 82%][49m[39m [###########################################################.............] 8Setting up libhamcrest-java (1.3-7) ...
+Setting up libcommons-cli-java (1.4-1) ...
+Setting up libplexus-sec-dispatcher-java (1.4-3) ...
+7[46;0f[42m[30mProgress: [ 83%][49m[39m [###########################################################.............] 8Setting up libnative-platform-jni (0.14-3) ...
+Setting up libkxml2-java (2.3.0+ds1-2) ...
+Setting up libsimple-http-java (4.1.21-1fakesync1) ...
+7[46;0f[42m[30mProgress: [ 84%][49m[39m [############################################################............] 8Setting up libdom4j-java (2.1.0-2) ...
+Setting up libfelix-osgi-obr-java (1.0.2-4fakesync1) ...
+Setting up libnative-platform-java (0.14-3) ...
+7[46;0f[42m[30mProgress: [ 85%][49m[39m [#############################################################...........] 8Setting up libjansi-java (1.16-1) ...
+Setting up ant-optional (1.10.5-3~18.04) ...
+Setting up testng (6.9.12-2ubuntu1) ...
+7[46;0f[42m[30mProgress: [ 86%][49m[39m [#############################################################...........] 8Setting up libreflectasm-java (1.05-4) ...
+Setting up libguava-java (19.0-1) ...
+Setting up libwagon-file-java (3.0.0-2) ...
+7[46;0f[42m[30mProgress: [ 87%][49m[39m [##############################################################..........] 8Setting up libbcpg-java (1.59-1) ...
+Setting up libcommons-parent-java (43-1) ...
+Setting up libxerces2-java (2.11.0-8) ...
+7[46;0f[42m[30mProgress: [ 88%][49m[39m [###############################################################.........] 8Setting up libcdi-api-java (1.2-2) ...
+Setting up libjna-java (4.5.1-1) ...
+Setting up libjline2-java (2.14.6-1) ...
+7[46;0f[42m[30mProgress: [ 89%][49m[39m [################################################################........] 8Setting up libservlet3.1-java (1:4.0.1-2~18.04) ...
+Setting up libxalan2-java (2.7.2-1) ...
+Setting up libplexus-container-default-java (1.7.1-7) ...
+7[46;0f[42m[30mProgress: [ 90%][49m[39m [################################################################........] 8Setting up libplexus-utils-java (1:1.5.15-5) ...
+Setting up libbsf-java (1:2.4.0-5build1) ...
+Setting up libcommons-compress-java (1.18-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 91%][49m[39m [#################################################################.......] 8Setting up libcommons-lang3-java (3.8-1~18.04.2) ...
+Setting up junit4 (4.12-8~18.04) ...
+Setting up libxstream-java (1.4.11.1-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 92%][49m[39m [##################################################################......] 8Setting up libcommons-codec-java (1.11-1) ...
+Setting up libcommons-lang-java (2.6-8) ...
+Setting up libnekohtml-java (1.9.22-1) ...
+7[46;0f[42m[30mProgress: [ 93%][49m[39m [##################################################################......] 8Setting up libcommons-io-java (2.6-2) ...
+Setting up libbcel-java (6.2-1) ...
+Setting up libguice-java (4.0-4) ...
+Setting up libplexus-container-default1.5-java (1.7.1-7) ...
+7[46;0f[42m[30mProgress: [ 94%][49m[39m [###################################################################.....] 8Setting up libkryo-java (2.20-6) ...
+Setting up libcommons-logging-java (1.2-2) ...
+Setting up libmaven-shared-utils-java (3.3.0-1~18.04) ...
+7[46;0f[42m[30mProgress: [ 95%][49m[39m [####################################################################....] 8Setting up libsisu-inject-java (0.3.2-2) ...
+Setting up bnd (3.5.0-4~18.04) ...
+Setting up libhttpclient-java (4.5.5-1) ...
+7[46;0f[42m[30mProgress: [ 96%][49m[39m [#####################################################################...] 8Setting up libfindbugs-java (3.1.0~preview2-3) ...
+Setting up groovy (2.4.16-1ubuntu1~18.04.1) ...
+update-alternatives: using /usr/share/groovy/bin/groovy to provide /usr/bin/groovy (groovy) in auto mode
+update-alternatives: using /usr/share/groovy/bin/groovyc to provide /usr/bin/groovyc (groovyc) in auto mode
+update-alternatives: using /usr/share/groovy/bin/grape to provide /usr/bin/grape (grape) in auto mode
+update-alternatives: using /usr/share/groovy/bin/startGroovy to provide /usr/bin/startGroovy (startGroovy) in auto mode
+update-alternatives: using /usr/share/groovy/bin/groovysh to provide /usr/bin/groovysh (groovysh) in auto mode
+update-alternatives: using /usr/share/groovy/bin/java2groovy to provide /usr/bin/java2groovy (java2groovy) in auto mode
+update-alternatives: using /usr/share/groovy/bin/groovyConsole to provide /usr/bin/groovyConsole (groovyConsole) in auto mode
+update-alternatives: using /usr/share/groovy/bin/groovydoc to provide /usr/bin/groovydoc (groovydoc) in auto mode
+Setting up libsisu-plexus-java (0.3.3-3) ...
+7[46;0f[42m[30mProgress: [ 97%][49m[39m [#####################################################################...] 8Setting up libwagon-http-java (3.0.0-2) ...
+Setting up libbindex-java (2.2+svn101-4~18.04) ...
+Setting up libjgit-java (3.7.1-4) ...
+7[46;0f[42m[30mProgress: [ 98%][49m[39m [######################################################################..] 8Setting up libgpars-groovy-java (1.2.1-10~18.04.1) ...
+Setting up libgradle-core-java (4.4.1-5ubuntu2~18.04) ...
+Setting up libmaven3-core-java (3.6.0-1~18.04.1) ...
+7[46;0f[42m[30mProgress: [ 99%][49m[39m [#######################################################################.] 8Setting up libgradle-plugins-java (4.4.1-5ubuntu2~18.04) ...
+Setting up gradle (4.4.1-5ubuntu2~18.04) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;46r8[1A[J]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle bji[K[Kuild
+[0mStarting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon > Connecting to Daemon[m[40D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> settings[m[10D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> settings[m[10D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> settings > Compiling /home/andrew/csci241/lab-1-Andrew-Dunn21/settings.gradle into local co[m[93D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> settings > Compiling /home/andrew/csci241/lab-1-Andrew-Dunn21/settings.gradle into local co[m[93D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> settings[m[0K[10D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% [m[0K[19D[1B[1m> loading[m[0K[9D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[2ADownload https://jcenter.bintray.com/com/google/guava/guava/26.0-jre/guava-26.0-jre.pom
+[1B[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2ADownload https://jcenter.bintray.com/com/google/guava/guava-parent/26.0-jre/guava-parent-26.0-jre.pom[0K[0K
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2ADownload https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[1B[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2ADownload https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom[0K[0K
+[0K
+[0K
+
+
+
+
+[6A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.[m[93D[1B[1m> checker-qual-2.5.2.pom[m[24D[1B[1m> jsr305-3.0.2.pom[m[18D[1B[1m> error_prone_annotations-2.1.3.pom[m[35D[1B[1m> oss-parent-7.pom[m[18D[1B[6ADownload https://jcenter.bintray.com/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[5B[0K
+[6A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.[m[93D[1B[1m> checker-qual-2.5.2.pom[m[24D[1B[1m> jsr305-3.0.2.pom[m[0K[18D[1B[1m> error_prone_annotations-2.1.3.pom[m[35D[1B> IDLE[6D[1B[6ADownload https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom[0K[0K
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.pom[0K[0K
+Download https://jcenter.bintray.com/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-parent/1.14/animal-sniffer-parent-1.14.pom
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[6A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > mojo-parent-34.pom[m[79D[1B[1m> error_prone_parent-2.1.3.pom[m[30D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[6ADownload https://jcenter.bintray.com/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.1.3/error_prone_parent-2.1.3.pom[0K[0K
+Download https://jcenter.bintray.com/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[2B[0K
+[0K
+[0K
+[0K
+[6A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B
+
+[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[1B[1m> guava-26.0-jre.jar[m[20D[1B[1m> checker-qual-2.5.2.jar[m[24D[1B[1m> jsr305-3.0.2.jar[m[18D[1B[1m> animal-sniffer-annotations-1.14.jar[m[37D[1B[1m> j2objc-annotations-1.1.jar[m[28D[1B[1m> error_prone_annotations-2.1.3.jar[m[35D[1B[8ADownload https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+Download https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar[0K[0K
+Download https://jcenter.bintray.com/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar[0K[0K
+[1B[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[0K[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar[m[20D[1B[1m> checker-qual-2.5.2.jar > 39 KB/188 KB downloaded[m[50D[1B> IDLE[6D[1B[1m> animal-sniffer-annotations-1.14.jar[m[37D[1B> IDLE[6D[1B> IDLE[6D[1B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar[m[20D[1B[1m> checker-qual-2.5.2.jar > 92 KB/188 KB downloaded[m[50D[2B[1m> animal-sniffer-annotations-1.14.jar[m[37D[3B[8ADownload https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar[0K[0K
+Download https://jcenter.bintray.com/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+[5B[0K
+[0K
+[0K
+[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[0K[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar[m[0K[20D[1B[1m> checker-qual-2.5.2.jar > 159 KB/188 KB downloaded[m[51D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 142 KB/2.61 MB downloaded[m[48D[1B> IDLE[0K[6D[5B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 270 KB/2.61 MB downloaded[m[48D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 494 KB/2.61 MB downloaded[m[48D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 542 KB/2.61 MB downloaded[m[48D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 974 KB/2.61 MB downloaded[m[48D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 1.09 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 1.39 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 1.61 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 1.76 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 2.08 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [4s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 2.20 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1m> guava-26.0-jre.jar > 2.51 MB/2.61 MB downloaded[m[49D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B> IDLE[0K[6D[6B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[0K[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [5s][m[33D[1B[1m> :compileJava[m[14D[7B[8A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [6s][m[34D[1B[1m> :startScripts[m[15D[7B[8A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [6s][m[34D[1B[1m> :startScripts[m[15D[7B[8A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [6s][m[34D[1B[1m> :distZip[m[0K[10D[7B[8A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [6s][m[35D[1B> IDLE[0K[6D[7B[8A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 7s
+5 actionable tasks: 5 executed
+[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[5A[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[2B[2A[0K
+[1m> Task :run[m[33m [39m
+Hello, world!
+
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle bul[Kild
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [0s][m[34D[1B[1m> :distZip[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run --args="friends"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [0s][m[34D[1B[1m> :distZip[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle buildrun --args="friends"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ f[Kcd [K src/main/java/lab1
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[00m$ gradle build
+[0mSupport for nested build without a settings file was deprecated and will be removed in Gradle 5.0. You should create a empty settings file in /home/andrew/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1A[0K
+[1m> Task :buildEnvironment[m[33m [39m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[00m$ gradle run --args"[K+[K="fri ends"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2ASupport for nested build without a settings file was deprecated and will be removed in Gradle 5.0. You should create a empty settings file in /home/andrew/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1[00m$ cd ..
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src/main/java[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src/main/java[00m$ cd ..
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src/main[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src/main[00m$ cd .. [K
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21/src[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21/src[00m$ cd ..
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [0s][m[34D[1B[1m> :distZip[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:6)
+
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run --args="fir[K[Kriends"
+[0m
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/andrew/csci241/lab-1-Andrew-Dunn21/src/main/java/lab1/Hello.java:15: error: class, interface, or enum expected
+}
+^
+1 error
+
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ grade[Kle g[Kbuild
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [0s][m[0K[34D[1B[1m> :distZip[m[0K[10D[1B[2A[1m<[0;32;1m======[0;39;1m-------> 50% EXECUTING [0s][m[34D[1B> IDLE[0K[6D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[0K[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m[33m [39m
+Uh oh
+Hello, world!
+
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ ga[Krade [K[Kle run --args="friends"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle hlep[K[K[Kelp ==ta[K[K[K[K--task :run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[0K
+[1m> Task :help[m[33m [39m[0K
+Detailed task information for [1m:run[m
+
+Path
+[1m     :run[m
+
+Type
+[1m     JavaExec[m (org.gradle.api.tasks.JavaExec)
+
+Options
+     [1m--debug-jvm[m     Enable debugging for the process. The process is started suspended and listening on port 5005. [INCUBATING]
+
+Description
+     Runs this project as a JVM application
+
+Group
+     application
+
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run -args"[K-[K="friends"
+[0m
+No argument was provided for command-line option '-g'.
+
+USAGE: gradle [option...] [task...]
+
+-?, -h, --help            Shows this help message.
+-a, --no-rebuild          Do not rebuild project dependencies. [deprecated]
+-b, --build-file          Specify the build file.
+--build-cache             Enables the Gradle build cache. Gradle will try to reuse outputs from previous builds. [incubating]
+-c, --settings-file       Specify the settings file.
+--configure-on-demand     Configure necessary projects only. Gradle will attempt to reduce configuration time for large multi-project builds. [incubating]
+--console                 Specifies which type of console output to generate. Values are 'plain', 'auto' (default), 'rich' or 'verbose'.
+--continue                Continue task execution after a task failure.
+-D, --system-prop         Set system property of the JVM (e.g. -Dmyprop=myvalue).
+-d, --debug               Log in debug mode (includes normal stacktrace).
+--daemon                  Uses the Gradle Daemon to run the build. Starts the Daemon if not running.
+--foreground              Starts the Gradle Daemon in the foreground. [incubating]
+-g, --gradle-user-home    Specifies the gradle user home directory.
+-I, --init-script         Specify an initialization script.
+-i, --info                Set log level to info.
+--include-build           Include the specified build in the composite. [incubating]
+-m, --dry-run             Run the builds with all task actions disabled.
+--max-workers             Configure the number of concurrent workers Gradle is allowed to use. [incubating]
+--no-build-cache          Disables the Gradle build cache. [incubating]
+--no-configure-on-demand  Disables the use of configuration on demand. [incubating]
+--no-daemon               Do not use the Gradle daemon to run the build. Useful occasionally if you have configured Gradle to always run with the daemon by default.
+--no-parallel             Disables parallel execution to build projects. [incubating]
+--no-scan                 Disables the creation of a build scan. For more information about build scans, please visit https://gradle.com/build-scans. [incubating]
+--offline                 Execute the build without accessing network resources.
+-P, --project-prop        Set project property for the build script (e.g. -Pmyprop=myvalue).
+-p, --project-dir         Specifies the start directory for Gradle. Defaults to current directory.
+--parallel                Build projects in parallel. Gradle will attempt to determine the optimal number of executor threads to use. [incubating]
+--profile                 Profile build execution time and generates a report in the <build_dir>/reports/profile directory.
+--project-cache-dir       Specify the project-specific cache directory. Defaults to .gradle in the root project directory.
+-q, --quiet               Log errors only.
+--recompile-scripts       Force build script recompiling. [deprecated]
+--refresh-dependencies    Refresh the state of dependencies.
+--rerun-tasks             Ignore previously cached task results.
+-S, --full-stacktrace     Print out the full (very verbose) stacktrace for all exceptions.
+-s, --stacktrace          Print out the stacktrace for all exceptions.
+--scan                    Creates a build scan. Gradle will emit a warning if the build scan plugin has not been applied. (https://gradle.com/build-scans) [incubating]
+--status                  Shows status of running and recently stopped Gradle Daemon(s).
+--stop                    Stops the Gradle Daemon if it is running.
+-t, --continuous          Enables continuous build. Gradle does not exit and will re-execute tasks when task file inputs change. [incubating]
+-u, --no-search-upward    Don't search in parent folders for a settings file.
+-v, --version             Print version info.
+-w, --warn                Set log level to warn.
+-x, --exclude-task        Specify a task to be excluded from execution.
+
+[2K[0m]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle rin -[K[K[K[Kun -i[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2020-04-09 11:59:55-0700
+Script started on 2020-04-09 13:13:49-0700
+]0;andrew@andrew-Zenbook: ~/csci241[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241[00m$ ce[Kd c[Klab-1-Andrew-d[KDunn21
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run --"[Kargs"[K="friends" [A
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [52ms][m[35D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello, friends!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 551ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[1A> IDLE[0K[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run
+
+[1A[1m<[0;1m-------------> 0% EXECUTING [71ms][m[35D[1B[1A[0K
+[1m> Task :run[m
+Uh oh
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 555ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle gb[K[Kbuild
+
+[1A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [60ms][m[39D[1B
+[2A[1m<[0;1m-------------> 0% EXECUTING [160ms][m[0K[36D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [260ms][m[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [360ms][m[37D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [460ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [560ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 988ms
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run
+
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [57ms][m[36D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Uh oh...         No args given!
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 582ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run arg[K[K[K--args="all you  cool cats and kittens"
+
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [69ms][m[35D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello, all!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 542ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run args="lunch"
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'args=lunch' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 418ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ gradle run args="lunch"[C- args="lunch"- args="lunch"[1P args="lunch"[1P args="lunch"[C-args="lunch"-args="lunch"
+
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [73ms][m[36D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, lunch!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 480ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25h]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git add src/main/java/lab1/ Hello.java
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git commit -m "Hello now pr ints with command args[K[K[K[Kline args[K"
+[master ca182e6] Hello now prints with command line arg
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ git push
+Username for 'https://github.com': Andrew_d  ) = ) -Dunn21
+Password for 'https://Andrew-Dunn21@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 978 bytes | 978.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Andrew-Dunn21
+   152ffee..ca182e6  master -> master
+]0;andrew@andrew-Zenbook: ~/csci241/lab-1-Andrew-Dunn21[01;32mandrew@andrew-Zenbook[00m:[01;34m~/csci241/lab-1-Andrew-Dunn21[00m$ exit
+exit
+
+Script done on 2020-04-09 13:17:37-0700
